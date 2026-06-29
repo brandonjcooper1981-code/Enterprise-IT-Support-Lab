@@ -1,96 +1,97 @@
 # Enterprise IT Support Lab
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
-![Windows Server](https://img.shields.io/badge/Windows%20Server-2025-0078D4)
-![Windows 11](https://img.shields.io/badge/Windows-11-0078D4)
+![Windows Server](https://img.shields.io/badge/Windows_Server-2025-0078D4)
+![Windows](https://img.shields.io/badge/Windows-11-0078D4)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-E95420)
+![Active Directory](https://img.shields.io/badge/Active_Directory-Lab-success)
+![DHCP](https://img.shields.io/badge/DHCP-Configured-success)
+![DNS](https://img.shields.io/badge/DNS-Configured-success)
 ![osTicket](https://img.shields.io/badge/osTicket-v1.18-orange)
+![PowerShell](https://img.shields.io/badge/PowerShell-Automation-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
-## Project Overview
+# Enterprise IT Infrastructure Project
 
-This project simulates the deployment and administration of a production-inspired Enterprise IT environment.
+This repository documents the design, deployment, administration, and day-to-day management of a production-inspired Enterprise IT environment.
 
-Rather than building isolated labs, this repository documents the implementation of an enterprise network from the ground up using Windows Server, Active Directory, DHCP, DNS, enterprise file services, Windows 11, Ubuntu Server, and osTicket.
+Rather than building isolated labs, this project simulates an actual corporate IT department where systems are deployed, secured, documented, maintained, and supported exactly as they would be in a real organization.
 
-The objective is to demonstrate the day-to-day responsibilities performed by Tier 1 / Tier 2 Help Desk and Systems Administrators.
+The project is organized into multiple implementation sprints covering Active Directory, Windows Server administration, enterprise networking, file services, Group Policy, Help Desk operations, Microsoft 365 administration, PowerShell automation, security operations, and ticket management.
 
 ---
 
-# Environment
+# Project Goals
+
+✔ Build a complete Active Directory environment
+
+✔ Deploy enterprise Windows infrastructure
+
+✔ Implement DHCP and DNS
+
+✔ Design enterprise Organizational Units
+
+✔ Create realistic users and departments
+
+✔ Configure enterprise file shares and NTFS permissions
+
+✔ Deploy osTicket Help Desk
+
+✔ Simulate Tier 1 & Tier 2 support
+
+✔ Administer Microsoft 365
+
+✔ Automate administrative tasks using PowerShell
+
+✔ Produce professional documentation throughout the project
+
+---
+
+# Enterprise Environment
 
 | Component | Technology |
 |------------|------------|
 | Hypervisor | Oracle VirtualBox |
 | Domain Controller | Windows Server 2025 |
-| Client | Windows 11 |
+| Client Workstation | Windows 11 Enterprise |
 | Linux Server | Ubuntu Server 24.04 |
-| Help Desk | osTicket |
-| Directory Services | Active Directory |
+| Active Directory | Windows AD DS |
 | DNS | Active Directory Integrated |
 | DHCP | Windows DHCP |
-| File Services | Windows File Server |
-| Authentication | Active Directory |
+| File Services | SMB Shares |
+| Help Desk | osTicket v1.18 |
+| Automation | PowerShell |
+| Documentation | GitHub |
 
 ---
 
-# Skills Demonstrated
+# Enterprise Architecture
 
-- Active Directory Administration
-- DNS Configuration
-- DHCP Configuration
-- Organizational Units
-- User Administration
-- Security Groups
-- NTFS Permissions
-- Share Permissions
-- Windows File Services
-- Group Policy
-- Windows 11 Administration
-- Linux Administration
-- Apache
-- PHP
-- MariaDB
-- osTicket
-- PowerShell
-- Enterprise Documentation
-- Troubleshooting
-
----
-
-# Sprint Progress
-
-| Sprint | Status |
-|---------|--------|
-| Sprint 1 - Enterprise Infrastructure | ✅ Complete |
-| Sprint 2 - Group Policy | 🔄 Planned |
-| Sprint 3 - Enterprise File Server | 🔄 Planned |
-| Sprint 4 - osTicket | 🔄 Planned |
-| Sprint 5 - Microsoft 365 | 🔄 Planned |
-| Sprint 6 - PowerShell Automation | 🔄 Planned |
-| Sprint 7 - Software Deployment | 🔄 Planned |
-| Sprint 8 - Printer Management | 🔄 Planned |
-| Sprint 9 - Security Hardening | 🔄 Planned |
-| Sprint 10 - Monitoring | 🔄 Planned |
-| Sprint 11 - Automation | 🔄 Planned |
-| Sprint 12 - Capstone | 🔄 Planned |
-
----
-
-# Current Infrastructure
-
-- Windows Server 2025 Domain Controller
-- Windows 11 Enterprise Client
-- Ubuntu Server
-- Active Directory
-- DNS
-- DHCP
-- Enterprise File Server
-- Department Shares
-- NTFS Permissions
-- Share Permissions
-- osTicket Help Desk
+```
+                         Internet
+                             │
+                    ┌─────────────────┐
+                    │   VirtualBox    │
+                    └─────────────────┘
+                             │
+                ┌────────────┴─────────────┐
+                │                          │
+         Windows Server 2025          Ubuntu 24.04
+             DC01                     osTicket
+                │                          │
+                ├──────────────┐           │
+                │              │           │
+         Active Directory      │           │
+                │              │           │
+          DNS / DHCP           │           │
+                │              │           │
+          File Shares          │           │
+                │              │           │
+                └────── CLIENT01 ──────────┘
+                    Windows 11
+```
 
 ---
 
@@ -98,43 +99,171 @@ The objective is to demonstrate the day-to-day responsibilities performed by Tie
 
 ```
 Enterprise-IT-Support-Lab
-
-Documentation
-
-Sprint-01
-Sprint-02
-Sprint-03
-Sprint-04
-Sprint-05
-Sprint-06
-Sprint-07
-Sprint-08
-Sprint-09
-Sprint-10
-Sprint-11
-Sprint-12
+│
+├── Assets
+├── Diagrams
+├── Enterprise-Documentation
+├── Incident-Reports
+├── PowerShell
+├── SOPs
+├── Ticket-Walkthroughs
+│
+├── Sprint-01-Enterprise-Infrastructure
+├── Sprint-02-Enterprise-Operations
+├── Sprint-03-Help-Desk-Operations
+├── Sprint-04-Security-Operations
+├── Sprint-05-Cloud-Administration
+├── Sprint-06-Automation
+└── Sprint-07-Enterprise-Capstone
 ```
 
 ---
 
-# Future Goals
+# Sprint Roadmap
 
-- Microsoft 365 Administration
-- Azure Entra ID
-- Intune
-- PowerShell Automation
-- Printer Management
-- Remote Support
-- Windows Deployment
-- WSUS
-- Security Hardening
-- Monitoring
-- Enterprise Backup Strategy
+| Sprint | Status |
+|---------|--------|
+| Sprint 1 – Enterprise Infrastructure | 🟢 In Progress |
+| Sprint 2 – Enterprise Operations | ⚪ Planned |
+| Sprint 3 – Help Desk Operations | ⚪ Planned |
+| Sprint 4 – Security Operations | ⚪ Planned |
+| Sprint 5 – Cloud Administration | ⚪ Planned |
+| Sprint 6 – Automation | ⚪ Planned |
+| Sprint 7 – Enterprise Capstone | ⚪ Planned |
 
 ---
 
-## Author
+# Skills Demonstrated
 
-Brandon J. Cooper
+### Windows Server Administration
 
-Building an enterprise home lab to develop practical experience in Help Desk, System Administration, Networking, and Cybersecurity.
+- Active Directory
+- DHCP
+- DNS
+- Organizational Units
+- Group Policy
+- File Services
+- NTFS Permissions
+- SMB Shares
+
+### Help Desk
+
+- osTicket Administration
+- User Provisioning
+- Password Resets
+- Ticket Workflow
+- Account Lockouts
+- User Support
+- Troubleshooting
+
+### Enterprise Administration
+
+- Identity Management
+- Access Control
+- Documentation
+- Change Management
+- Standard Operating Procedures
+- Incident Response
+
+### Automation
+
+- PowerShell
+- Administrative Scripting
+- User Automation
+- Group Automation
+
+---
+
+# Documentation
+
+| Document | Description |
+|----------|-------------|
+| Project Charter | Project scope and objectives |
+| Documentation Index | Complete project navigation |
+| Sprint Documentation | Step-by-step implementation |
+| SOPs | Administrative procedures |
+| Incident Reports | Troubleshooting scenarios |
+| Ticket Walkthroughs | Help Desk simulations |
+
+---
+
+# Current Progress
+
+✅ Domain Controller deployed
+
+✅ Active Directory configured
+
+✅ Enterprise Organizational Units created
+
+✅ Department users created
+
+✅ Security Groups configured
+
+✅ DHCP configured
+
+✅ DNS configured
+
+✅ Enterprise file shares deployed
+
+✅ NTFS permissions configured
+
+✅ osTicket deployed
+
+⬜ Microsoft 365 Integration
+
+⬜ PowerShell Automation
+
+⬜ Enterprise GPO Management
+
+⬜ Help Desk Ticket Scenarios
+
+⬜ Enterprise Security Hardening
+
+---
+
+# Screenshots
+
+Project screenshots are organized within each sprint.
+
+Example:
+
+Sprint 01
+
+- Active Directory
+- DHCP
+- DNS
+- Enterprise OUs
+- Department Shares
+- NTFS Permissions
+- osTicket
+- Validation
+- Troubleshooting
+
+---
+
+# Future Enhancements
+
+- Microsoft 365 Administration
+- Intune
+- Entra ID
+- Defender for Endpoint
+- WSUS
+- Wazuh SIEM Integration
+- Windows Event Forwarding
+- PowerShell Automation
+- Enterprise Backup Strategy
+- Vulnerability Management
+
+---
+
+# Author
+
+**Brandon J. Cooper**
+
+Enterprise IT Support Lab
+
+2026
+
+---
+
+This repository is continuously updated as additional enterprise technologies are implemented. develop practical experience in Help Desk, System Administration, Networking, and Cybersecurity.
