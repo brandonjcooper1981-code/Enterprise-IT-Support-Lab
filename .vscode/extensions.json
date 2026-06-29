@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "yzhang.markdown-all-in-one",
+        "eamodio.gitlens",
+        "ms-vscode.powershell",
+        "redhat.vscode-yaml",
+        "esbenp.prettier-vscode",
+        "pkief.material-icon-theme",
+        "usernamehw.errorlens",
+        "hediet.vscode-drawio",
+        "yzane.markdown-pdf"
+    ]
+}

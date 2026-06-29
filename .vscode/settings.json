@@ -1,0 +1,16 @@
+{
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        100
+    ],
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    "markdown.preview.breaks": true,
+    "markdown.extension.toc.updateOnSave": true,
+
+    "powershell.codeFormatting.preset": "OTBS",
+
+    "workbench.iconTheme": "material-icon-theme"
+}
