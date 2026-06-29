@@ -1,309 +1,274 @@
-# Company Profile
+| Property | Value |
+|----------|-------|
+| **Company** | Northwind Technologies |
+| **Department** | Information Technology Services (ITS) |
+| **Document ID** | NWT-ENT-001 |
+| **Document Type** | Company Profile |
+| **Classification** | Internal Use |
+| **Version** | 1.0 |
+| **Status** | Approved |
+| **Author** | Brandon J. Cooper |
+| **Last Updated** | June 2026 |
 
-Version: 1.0
+# NWT-ENT-001 Company Profile
+
+*Enterprise IT Support Lab*
+
+---
+
+# Executive Summary
+
+Northwind Technologies is a fictional mid-sized technology consulting and managed IT services company created to simulate the planning, deployment, administration, and support of a modern enterprise IT environment.
+
+This organization serves as the foundation of the Enterprise IT Support Lab, providing realistic business requirements, organizational structure, and operational workflows that mirror those found within a production enterprise.
+
+The Information Technology Services (ITS) department is responsible for designing, deploying, securing, documenting, and maintaining all enterprise technology systems.
 
 ---
 
 # Company Overview
 
-## Company Name
-
-Cooper Technologies
+| Property | Value |
+|----------|-------|
+| Company Name | Northwind Technologies |
+| Industry | Technology Consulting & Managed IT Services |
+| Headquarters | Atlanta, Georgia |
+| Regional Offices | Dallas, TX • Tampa, FL • Chicago, IL |
+| Founded | 2010 |
+| Employees | Approximately 1,200 |
+| IT Department | Information Technology Services (ITS) |
+| IT Staff | 18 Employees |
+| Repository | Enterprise IT Support Lab |
 
 ---
 
-## Industry
+# Mission Statement
 
-Technology Services
+Northwind Technologies delivers secure, reliable, and scalable technology solutions that enable businesses to achieve their strategic objectives.
+
+Through exceptional customer service, operational excellence, and continuous innovation, Information Technology Services supports every department with enterprise-class infrastructure and modern IT solutions.
 
 ---
+
+# Vision Statement
+
+To become a trusted technology partner recognized for operational excellence, secure infrastructure, innovation, and exceptional customer support.
+
+---
+
+# Core Values
+
+- Customer First
+- Integrity
+- Innovation
+- Security by Design
+- Operational Excellence
+- Accountability
+- Continuous Improvement
+- Collaboration
+
+---
+
+# Company Leadership
+
+| Position | Employee |
+|----------|----------|
+| Chief Executive Officer (CEO) | Brian Harris |
+| Chief Information Officer (CIO) | Michael Wilson |
+| Systems Administrator / Enterprise Infrastructure Project Lead | Brandon J Cooper |
+| IT Operations Manager | Sarah Support |
+| Help Desk Manager | John Helpdesk |
+| Human Resources Director | Karen Smith |
+| Finance Director | Emily Carter |
+| Engineering Director | David Miller |
+| Sales Director | Jennifer Adams |
+| Marketing Director | Lisa Thompson |
+| Operations Director | Robert King |
+
+---
+
+## Organizational Structure
+
+Northwind Technologies is led by an executive leadership team responsible for business strategy, operational excellence, and technology innovation. Information Technology Services (ITS) supports all corporate departments by providing secure, reliable, and scalable infrastructure, enterprise applications, and technical support services.
+
+The Enterprise IT Support Lab simulates the responsibilities of the ITS department, with Brandon J. Cooper serving as the Systems Administrator and Enterprise Infrastructure Project Lead responsible for designing, implementing, documenting, and maintaining the organization's technology environment.
+
+# Information Technology Services (ITS)
+
+Information Technology Services provides enterprise technology support for all Northwind Technologies employees.
+
+Responsibilities include:
+
+- Active Directory Administration
+- Windows Server Administration
+- Microsoft 365 Administration
+- Network Infrastructure
+- DHCP & DNS
+- Enterprise File Services
+- Security Administration
+- Endpoint Management
+- Help Desk Operations
+- PowerShell Automation
+- Documentation Management
+- Disaster Recovery Planning
+
+---
+
+# Enterprise Departments
+
+Northwind Technologies is organized into the following business units.
+
+| Department | Primary Function |
+|------------|------------------|
+| Executive | Executive Leadership |
+| Human Resources | Employee Services |
+| Finance | Financial Operations |
+| Information Technology | Infrastructure & Support |
+| Engineering | Product Development |
+| Sales | Customer Acquisition |
+| Marketing | Brand Management |
+| Operations | Business Operations |
+
+---
+
+# Enterprise Infrastructure
+
+The Northwind Technologies infrastructure is designed to simulate a production enterprise environment.
+
+## Core Infrastructure
+
+- Windows Server 2025
+- Active Directory Domain Services
+- DNS
+- DHCP
+- Group Policy
+- NTFS Permissions
+- Enterprise File Services
+
+## Client Systems
+
+- Windows 11 Enterprise
+
+## Linux Infrastructure
+
+- Ubuntu Server 24.04 LTS
+
+## Help Desk
+
+- osTicket
+
+## Security
+
+- Microsoft Defender
+- Wazuh SIEM
+- Sysmon
+- Windows Firewall
+
+## Automation
+
+- PowerShell
+- PowerShell Remoting
+- Scheduled Tasks
+
+## Cloud Services *(Future Sprint)*
+
+- Microsoft Entra ID
+- Microsoft 365
+- Exchange Online
+- SharePoint Online
+- OneDrive
+
+---
+
+# Office Locations
 
 ## Headquarters
 
 Atlanta, Georgia
 
----
+## Regional Offices
 
-## Employees
-
-Approximately 250
-
----
-
-## Locations
-
-• Atlanta Headquarters
-
-• Remote Employees
+- Dallas, Texas
+- Tampa, Florida
+- Chicago, Illinois
 
 ---
 
-## IT Department
+# Strategic Objectives
 
-The IT Department provides enterprise support for all company employees and infrastructure.
+Information Technology Services supports the following strategic initiatives.
 
-Primary responsibilities include:
+- Modernize enterprise infrastructure.
+- Improve operational efficiency through automation.
+- Maintain secure identity management.
+- Deliver reliable Help Desk services.
+- Standardize enterprise documentation.
+- Expand cloud integration.
+- Strengthen cybersecurity posture.
+- Support business continuity.
 
-- Active Directory Administration
-- User Lifecycle Management
-- Windows Server Administration
-- Endpoint Support
-- Microsoft 365 Administration
-- Enterprise Networking
-- Security Administration
+---
+
+# Enterprise Documentation
+
+This repository contains documentation for:
+
+- Project Management
+- Enterprise Architecture
+- Sprint Documentation
+- Standard Operating Procedures
+- PowerShell Automation
 - Help Desk Operations
-- Asset Management
-- Documentation
+- Incident Reports
+- Knowledge Base Articles
+- Technical Standards
 
 ---
 
-# Business Departments
+# Repository Organization
 
-## Executive
+The Enterprise IT Support Lab follows a structured implementation methodology.
 
-Responsible for strategic planning and executive leadership.
-
-Users
-
-- James Wilson
-- Rebecca Harris
-
-Shared Resources
-
-- Quarterly Reports
-- Annual Strategy
-- Budget Forecasts
-- Board Meetings
-
----
-
-## Human Resources
-
-Responsible for employee management.
-
-Users
-
-- Amanda White
-- Lisa User
-
-Shared Resources
-
-- Benefits
-- Training
-- Employee Handbook
-- New Hire Packets
-- Performance Reviews
-
----
-
-## Finance
-
-Responsible for company financial operations.
-
-Users
-
-- Karen Smith
-- Robert Taylor
-
-Shared Resources
-
-- Payroll
-- Taxes
-- Accounts Payable
-- Accounts Receivable
-- Budgets
-
----
-
-## Sales
-
-Responsible for customer acquisition.
-
-Users
-
-- Chris Johnson
-- David Miller
-- Mike User
-
-Shared Resources
-
-- Customers
-- Contracts
-- Opportunities
-- Quotes
-
----
-
-## Engineering
-
-Responsible for software and product development.
-
-Users
-
-- Alex Garcia
-- John Smith
-- Ryan Walker
-
-Shared Resources
-
-- Projects
-- Documentation
-- CAD
-- Testing
-
----
-
-## Marketing
-
-Responsible for branding and communications.
-
-Users
-
-- Ashley Brown
-- Emily Davis
-
-Shared Resources
-
-- Campaigns
-- Graphics
-- Branding
-- Social Media
-
----
-
-## Operations
-
-Responsible for logistics and business operations.
-
-Users
-
-- Brian Harris
-- Michael Wilson
-
-Shared Resources
-
-- Inventory
-- Vendors
-- Shipping
-- Graphics
-
----
-
-## Information Technology
-
-Responsible for enterprise infrastructure.
-
-Users
-
-- Brandon J. Cooper
-- Emily Wilson
-- John Helpdesk
-- Sarah Support
-- Tim User
-
-Responsibilities
-
-- Active Directory
-- Windows Server
-- DHCP
-- DNS
-- Group Policy
-- File Server
-- Microsoft 365
-- Endpoint Support
-- osTicket
-- PowerShell Automation
-
----
-
-# Enterprise Servers
-
-| Server | Purpose |
+| Section | Purpose |
 |---------|----------|
-| DC01 | Active Directory, DNS, DHCP, File Services |
-| CLIENT01 | Windows 11 Enterprise Workstation |
-| osTicket01 | Help Desk Ticketing Server |
+| Project Management | Planning & Governance |
+| Portfolio | Career Documentation |
+| Enterprise Documentation | Architecture & Standards |
+| Sprint Documentation | Project Implementation |
+| Diagrams | Enterprise Architecture |
+| PowerShell | Automation |
+| SOPs | Operational Procedures |
+| Ticket Walkthroughs | Help Desk Operations |
+| Incident Reports | Operational Events |
 
 ---
 
-# Enterprise Standards
+# Related Documentation
 
-Naming Convention
-
-```
-Server
-
-DC01
-
-CLIENT01
-
-OSTICKET01
-```
-
-User Accounts
-
-```
-firstname.lastname
-
-bcooper.admin
-
-jsmith
-
-agarcia
-```
-
-Department Groups
-
-```
-HR_RW
-
-Finance_RW
-
-Sales_RW
-
-Engineering_RW
-
-Marketing_RW
-
-Operations_RW
-
-Executive_RW
-
-IT_RW
-```
+- NWT-PM-001 Project Charter
+- NWT-PM-002 Roadmap
+- NWT-PM-003 Milestones
+- NWT-STD-001 Enterprise Documentation Standard
+- NWT-ENT-002 Enterprise Architecture
+- NWT-ENT-003 Enterprise Network Diagram
+- NWT-ENT-004 Server Inventory
+- NWT-ENT-005 IP Address Plan
+- NWT-ENT-006 Enterprise Naming Standards
 
 ---
 
-# Current Enterprise Technologies
+# Revision History
 
-- Windows Server 2025
-- Windows 11
-- Ubuntu Server 24.04
-- Active Directory
-- DNS
-- DHCP
-- SMB File Shares
-- osTicket
-- PowerShell
-- GitHub Documentation
+| Version | Date | Author | Description |
+|----------|------|--------|-------------|
+| 1.0 | June 2026 | Brandon J. Cooper | Initial Company Profile |
 
 ---
 
-# Planned Technologies
+**Northwind Technologies**
 
-- Microsoft 365
-- Entra ID
-- Intune
-- Microsoft Defender
-- WSUS
-- WDS
-- PowerShell Automation
-- Wazuh SIEM
-- Sysmon
-- Windows Event Forwarding
+**Information Technology Services (ITS)**
 
----
+*Innovate • Secure • Support*
 
-# Enterprise Goals
-
-Provide secure, reliable, and scalable IT services while maintaining complete documentation, standardized administrative procedures, and enterprise security best practices.
+© 2026 Northwind Technologies

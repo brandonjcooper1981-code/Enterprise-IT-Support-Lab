@@ -1,15 +1,28 @@
-# Project Management
+---
+Company: Northwind Technologies
 
-> Enterprise IT Support Lab
-> Author: Brandon J. Cooper
-> Version: 1.0
-> Status: In Progress
+Department: Information Technology Services (ITS)
 
+Section: Project Management
+
+Document Type: Navigation
+
+Classification: Internal Use
+
+Repository: Enterprise IT Support Lab
+
+Status: Active
+
+Version: 1.0
+
+Last Updated: June 2026
 ---
 
-## Overview
+# Project Management
 
-The Project Management section documents the planning, organization, and execution of the Enterprise IT Support Lab.
+Welcome to the Project Management documentation for Northwind Technologies.
+
+This section contains the planning, governance, standards, and project oversight documentation used throughout the Enterprise IT Support Lab.
 
 Rather than building isolated technical labs, this project follows a structured implementation methodology that mirrors how enterprise IT infrastructure projects are planned and executed in production environments.
 

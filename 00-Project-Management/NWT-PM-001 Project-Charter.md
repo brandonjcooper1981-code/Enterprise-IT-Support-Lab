@@ -1,15 +1,17 @@
 # Enterprise IT Support Lab
 
-## Project Charter
+| Property | Value |
+|----------|-------|
+| Company | Northwind Technologies |
+| Department | Information Technology Services (ITS) |
+| Document ID | NWT-PM-001 |
+| Document Type | Project Charter |
+| Classification | Internal Use |
+| Version | 1.0 |
+| Status | Approved |
+| Author | Brandon J. Cooper |
+| Last Updated | June 2026 |
 
-**Project:** Enterprise IT Support Lab
-**Project Manager:** Brandon J. Cooper
-**Version:** 1.0
-**Status:** In Progress
-**Start Date:** June 2026
-**Target Completion:** TBD (Completion of Sprint 7)
-
----
 
 # Executive Summary
 

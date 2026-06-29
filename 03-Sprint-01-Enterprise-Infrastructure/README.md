@@ -1,3 +1,21 @@
+Company: Northwind Technologies
+
+Department: Information Technology Services (ITS)
+
+Section: Sprint 01 – Enterprise Infrastructure
+
+Document Type: Navigation
+
+Classification: Internal Use
+
+Repository: Enterprise IT Support Lab
+
+Status: Active
+
+Version: 1.0
+
+Last Updated: June 2026
+
 # Sprint 1 – Enterprise Infrastructure
 
 ## Objective

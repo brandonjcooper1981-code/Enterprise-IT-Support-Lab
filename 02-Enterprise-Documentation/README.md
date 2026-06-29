@@ -1,6 +1,28 @@
 # Enterprise Documentation
+---
+Company: Northwind Technologies
 
-Welcome to the Enterprise IT Support Lab documentation portal.
+Department: Information Technology Services (ITS)
+
+Section: Enterprise Documentation
+
+Document Type: Navigation
+
+Classification: Internal Use
+
+Repository: Enterprise IT Support Lab
+
+Status: Active
+
+Version: 1.0
+
+Last Updated: June 2026
+---
+
+# Enterprise Documentation
+
+Welcome to the Enterprise Documentation for Northwind Technologies.
+
 
 This documentation simulates the internal knowledge base used by Systems Administrators, Help Desk Technicians, and IT Managers to administer and support a production enterprise environment.
 
