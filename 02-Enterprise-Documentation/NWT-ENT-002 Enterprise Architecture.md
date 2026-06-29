@@ -27,8 +27,6 @@ This architecture serves as the technical foundation for all implementation spri
 
 ---
 
----
-
 # Architecture Overview
 
 The following diagram illustrates the high-level enterprise architecture supporting Northwind Technologies.
@@ -69,6 +67,8 @@ The following diagram illustrates the high-level enterprise architecture support
 The Enterprise Architecture serves as the technical blueprint for the Enterprise IT Support Lab and defines the relationship between infrastructure, identity management, network services, file services, automation, and operational support.
 
 ---
+
+# Layered Enterprise Architecture
 
 Business Layer
 ──────────────────────────
@@ -114,6 +114,21 @@ Sysmon (Future)
 
 ---
 
+# Enterprise Design Principles
+
+Northwind Technologies follows the following enterprise architecture principles.
+
+- Centralized Administration
+- Standardization
+- Least Privilege
+- Security by Design
+- Scalability
+- High Availability (Future)
+- Automation First
+- Documentation First
+
+---
+
 # Technology Stack Summary
 
 | Layer                | Technologies                                                                                  |
@@ -125,6 +140,21 @@ Sysmon (Future)
 | **Operations**       | osTicket, PowerShell, GitHub Documentation                                                    |
 | **Security**         | Microsoft Defender, Windows Firewall, NTFS Permissions, Wazuh *(Planned)*, Sysmon *(Planned)* |
 | **Cloud (Future)**   | Microsoft Entra ID, Microsoft 365, Exchange Online, SharePoint Online, OneDrive               |
+
+---
+
+# Architecture Standards
+
+| Standard        | Description                |
+| --------------- | -------------------------- |
+| Authentication  | Active Directory           |
+| Authorization   | Security Groups            |
+| Naming          | Enterprise Naming Standard |
+| Documentation   | NWT-STD-001                |
+| Permissions     | Least Privilege            |
+| File Access     | NTFS + SMB                 |
+| Automation      | PowerShell                 |
+| Version Control | GitHub                     |
 
 ---
 
@@ -144,7 +174,7 @@ The enterprise architecture has been designed to support the following objective
 
 ---
 
-# Enterprise Environment Overview
+# Current Enterprise Environment
 
 | Component               | Technology              |
 | ----------------------- | ----------------------- |
@@ -176,6 +206,42 @@ Business Units include:
 * Operations
 
 Each department utilizes centralized authentication, shared storage, and standardized security policies managed through Active Directory.
+
+---
+
+# Technology Lifecycle
+
+Current
+
+Windows Server 2025
+
+Windows 11 Enterprise
+
+Ubuntu Server
+
+↓
+
+Next
+
+PowerShell Automation
+
+↓
+
+Next
+
+Microsoft 365
+
+↓
+
+Next
+
+Wazuh SOC
+
+↓
+
+Future
+
+Azure Integration
 
 ---
 
@@ -356,7 +422,7 @@ Documentation categories include:
 
 ---
 
-# Future Architecture Roadmap
+# Enterprise Technology Roadmap
 
 Future enterprise initiatives include:
 
