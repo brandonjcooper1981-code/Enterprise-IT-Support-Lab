@@ -6,6 +6,16 @@ This documentation simulates the internal knowledge base used by Systems Adminis
 
 ---
 
+# Enterprise Network Diagram
+
+![Enterprise Network Diagram](../Diagrams/01-Network/Enterprise-Network-Diagram.png)
+
+---
+
+## Overview
+
+...
+
 # Documentation Index
 
 ## Project Management
