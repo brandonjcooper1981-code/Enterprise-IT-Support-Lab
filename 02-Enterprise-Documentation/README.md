@@ -16,7 +16,19 @@ This documentation simulates the internal knowledge base used by Systems Adminis
 
 ...
 
-# Documentation Index
+## Documentation Index
+
+| Document | Description |
+|----------|-------------|
+| Company Profile | Overview of Cooper Technologies |
+| Project Charter | Project objectives and scope |
+| Network Overview | Enterprise network architecture |
+| Server Inventory | Production server inventory |
+| IP Addressing Plan | Network addressing documentation |
+| Active Directory Design | Domain, OU, and object structure |
+| File Services | Enterprise file share configuration |
+| Security Standards | Security baselines |
+| Disaster Recovery | Recovery planning |
 
 ## Project Management
 
