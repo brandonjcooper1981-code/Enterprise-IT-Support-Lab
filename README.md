@@ -93,6 +93,10 @@ The project is organized into multiple implementation sprints covering Active Di
                     Windows 11
 ```
 
+## Enterprise Network Diagram
+
+![Enterprise Network Diagram](Diagrams/Enterprise-Network-Diagram.png)
+
 ---
 
 # Repository Structure
