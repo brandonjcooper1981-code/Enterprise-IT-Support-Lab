@@ -27,6 +27,14 @@ This sprint establishes the technical baseline for future phases by implementing
 
 ---
 
+# Document Purpose
+
+This document serves as the authoritative planning and governance reference for Sprint 1 of the Enterprise IT Modernization Project.
+
+It defines the business objectives, implementation strategy, project scope, success criteria, deliverables, dependencies, and governance requirements that guide all milestone activities completed during this sprint.
+
+---
+
 # Project Overview
 
 The Enterprise Infrastructure Deployment sprint represents the first major implementation phase of the Enterprise IT Modernization Project.
@@ -46,13 +54,11 @@ Core services deployed during this sprint include:
 
 ---
 
-# Business Need
+# Business Value
 
-Northwind Technologies required a centralized infrastructure capable of supporting secure user authentication, standardized workstation management, centralized file storage, and enterprise support services.
+Sprint 1 establishes the foundational infrastructure required for Northwind Technologies to standardize identity management, network services, enterprise file storage, and Help Desk operations.
 
-Prior to this implementation, administrative processes were decentralized and lacked the consistency, scalability, and security expected within a modern enterprise environment.
-
-The Enterprise Infrastructure Deployment sprint addresses these business requirements by establishing a centralized Windows Server environment designed to support future growth while improving operational efficiency.
+Completing this sprint reduces administrative overhead, improves security, enables centralized management, and provides the technical platform required for future modernization initiatives.
 
 ---
 
@@ -157,6 +163,7 @@ Sprint 1 will be considered successful when:
 - NTFS permissions enforce role-based access.
 - osTicket is operational.
 - Validation testing is successfully completed.
+- Documentation complies with Northwind Technologies documentation standards.
 - Enterprise documentation is finalized.
 
 ---
@@ -186,6 +193,7 @@ Sprint 1 depends upon the successful completion of:
 - NWT-ENT-002 Enterprise Architecture
 - NWT-STD-001 Enterprise Documentation Standard
 - NWT-STD-002 Markdown & Document Style Guide
+- Oracle VirtualBox Virtualization Platform
 
 ---
 
@@ -193,12 +201,13 @@ Sprint 1 depends upon the successful completion of:
 
 Potential implementation risks include:
 
-- Virtualization configuration issues
-- DNS misconfiguration
-- Domain join failures
-- Incorrect NTFS permissions
-- Network connectivity issues
-- Documentation inconsistencies
+| Risk                   | Mitigation                                         |
+| ---------------------- | -------------------------------------------------- |
+| Virtualization Issues  | Validate VM configuration prior to deployment      |
+| DNS Misconfiguration   | Perform validation after each configuration change |
+| Domain Join Failure    | Verify DNS and network configuration               |
+| NTFS Permission Errors | Validate permissions using test accounts           |
+| Documentation Drift    | Follow NWT-STD-001 and NWT-STD-002                 |
 
 Each identified issue is documented and resolved through the Sprint 1 troubleshooting process.
 
@@ -232,26 +241,32 @@ Major accomplishments include:
 - Enterprise validation testing
 - Operational documentation
 
+Completion of Sprint 1 provides the operational foundation required to begin Sprint 2 – Enterprise Operations.
+
 ---
 
 # Project Metrics
 
-| Metric | Target |
-|---------|-------:|
-| Milestones | 7 |
-| Core Infrastructure Services | 6 |
-| Validation Tests | 15+ |
-| Troubleshooting Articles | 10+ |
-| Documentation Files | 10+ |
-| Screenshots | 50+ |
+| Metric              | Planned | Actual |
+| ------------------- | ------- | ------ |
+| Milestones          | 7       | 7      |
+| Validation Tests    | 15      | 17     |
+| Screenshots         | 50      | 61     |
+| Documentation Files | 10      | 12     |
 
 ---
 
 # Related Documentation
 
+Project Management
 - NWT-PM-001 Project Charter
+- NWT-002 Roadmap
+
+Enterprise Documentation
 - NWT-ENT-001 Company Profile
 - NWT-ENT-002 Enterprise Architecture
+
+Standards
 - NWT-STD-001 Enterprise Documentation Standard
 - NWT-STD-002 Markdown & Document Style Guide
 
@@ -259,18 +274,11 @@ Major accomplishments include:
 
 # Approval
 
-**Approved By**
-
-Michael Wilson
-Chief Information Officer (CIO)
-
-**Prepared By**
-
-Brandon J. Cooper
-
-**Department**
-
-Information Technology Services (ITS)
+| Role        | Name                                                      |
+| ----------- | --------------------------------------------------------- |
+| Approved By | Michael Wilson, Chief Information Officer (CIO)           |
+| Prepared By | Brandon J. Cooper, Enterprise Infrastructure Project Lead |
+| Department  | Information Technology Services (ITS)                     |
 
 ---
 
