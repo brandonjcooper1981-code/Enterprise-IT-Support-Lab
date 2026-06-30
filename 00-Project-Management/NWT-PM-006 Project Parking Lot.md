@@ -14,37 +14,98 @@ Last Updated: June 2026
 
 ---
 
-Executive Summary
+# Executive Summary
 
-Purpose
+The Project Parking Lot serves as the centralized location for capturing project ideas, documentation improvements, future enhancements, and deferred work items throughout the Enterprise IT Modernization Project.
 
-How to Use This Document
+Its purpose is to preserve valuable ideas without interrupting the completion of active milestones or introducing unnecessary scope changes during implementation.
+
+---
+
+# Purpose
+
+This document provides a structured process for recording potential improvements, future work items, and documentation enhancements.
+
+The Project Parking Lot supports project focus by allowing ideas to be captured immediately while deferring implementation until the appropriate project phase or review cycle.
+
+---
+
+# How to Use This Document
+
+When new ideas, enhancements, or process improvements are identified during active project work, they should be recorded in this document rather than implemented immediately.
+
+Items should include:
+
+- Description
+- Reason
+- Priority
+- Target Phase
+- Current Status
+
+Ideas remain in the Project Parking Lot until they are scheduled for implementation or removed during a project review.
+
+# Project Management Principles
+
+Northwind Technologies follows these principles throughout the Enterprise IT Modernization Project:
+
+- Finish the current deliverable before beginning new work.
+- Capture ideas without interrupting implementation.
+- Standardize successful processes after practical use.
+- Continuously improve documentation through scheduled review cycles.
+- Maintain documentation consistency across the repository.
 
 ---
 
 Current Sprint
 
-Finish NWT-SPR-102
+| Priority | Item                             |    Status   |
+| -------- | -------------------------------- | :---------: |
+| 🔴       | Complete NWT-SPR-102 Milestone 1 | In Progress |
+
 
 ---
 
-Next Sprint
+| Priority | Item                             |    Status   |
+| -------- | -------------------------------- | :---------: |
+| 🔴       | Complete NWT-SPR-201 Overview | Pending |
+
 
 ---
 
-Repository Improvements
+# Repository Improvements
+
+| Priority | Improvement | Target Phase | Status |
+| -------- | ----------- | ------------ | :----: |
+
 
 ---
 
-Documentation Improvements
+# Documentation Improvements
+
+| Priority | Improvement                                                   | Target          |
+| -------- | ------------------------------------------------------------- | --------------- |
+| 🔵       | Add Northwind Documentation Framework Appendix to NWT-STD-002 | Sprint 1 Polish |
+
 
 ---
 
-Future Enhancements
+# Future Enhancements
+
+Microsoft 365 Tenant
+Azure Intergration
+Intune
+SCCM
+Windows Deployment Services
+PKI
+Monitoring Expansion
 
 ---
 
-Completed Items
+# Completed Items
+
+| Date      | Completed Item                                                        |
+| --------- | --------------------------------------------------------------------- |
+| June 2026 | NWT-SPR-101 Sprint 1 – Enterprise Infrastructure Deployment completed |
 
 ---
 
@@ -58,7 +119,7 @@ Completed Items
 
 **Questions or Updates?**
 
-Please submit documentation corrections through the Northwind Technologies Information Technology Services documentation review process.
+Questions, suggested improvements, and documentation corrections should be reviewed during the appropriate milestone review or sprint polish session to maintain consistency across the Enterprise IT Support Lab.
 
 ---
 
