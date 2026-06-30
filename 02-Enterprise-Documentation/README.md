@@ -28,6 +28,14 @@ This documentation simulates the internal knowledge base used by Systems Adminis
 
 ---
 
+## Purpose
+
+The Enterprise Documentation section contains the architectural standards, infrastructure documentation, technical references, and operational guidance supporting the Northwind Technologies Enterprise IT Support Lab.
+
+These documents establish the technical baseline for all implementation sprints, standard operating procedures, automation, and enterprise support activities.
+
+---
+
 # The Documentation Library
 
 | Document ID | Document                   | Status |
@@ -44,6 +52,23 @@ This documentation simulates the internal knowledge base used by Systems Adminis
 | NWT-ENT-010 | Security Baseline          |    ⏳   |
 
 The Enterprise Documentation library defines the architecture, standards, and operational design of the Northwind Technologies environment. These documents provide the technical foundation for every sprint, procedure, and implementation guide within the Enterprise IT Support Lab.
+
+---
+
+
+## Documentation Index
+
+| Document | Description |
+|----------|-------------|
+| Company Profile | Overview of Northwind Technologies |
+| Project Charter | Project objectives and scope |
+| Network Overview | Enterprise network architecture |
+| Server Inventory | Production server inventory |
+| IP Addressing Plan | Network addressing documentation |
+| Active Directory Design | Domain, OU, and object structure |
+| File Services | Enterprise file share configuration |
+| Security Standards | Security baselines |
+| Disaster Recovery | Recovery planning |
 
 ---
 
@@ -75,107 +100,7 @@ The Enterprise Documentation library defines the architecture, standards, and op
 
 7. Organization Chart
 
----
-
 ## Overview
-
-...
-
-## Documentation Index
-
-| Document | Description |
-|----------|-------------|
-| Company Profile | Overview of Cooper Technologies |
-| Project Charter | Project objectives and scope |
-| Network Overview | Enterprise network architecture |
-| Server Inventory | Production server inventory |
-| IP Addressing Plan | Network addressing documentation |
-| Active Directory Design | Domain, OU, and object structure |
-| File Services | Enterprise file share configuration |
-| Security Standards | Security baselines |
-| Disaster Recovery | Recovery planning |
-
-
-
-## Project Management
-
-- Project Charter
-- Company Profile
-- Project Roadmap
-- Change Log
-
----
-
-## Infrastructure
-
-- Network Overview
-- Server Inventory
-- IP Address Plan
-- Enterprise Architecture
-- Active Directory Design
-
----
-
-## Systems Administration
-
-- Organizational Units
-- User Management
-- Security Groups
-- Group Policy
-- DNS
-- DHCP
-- File Services
-
----
-
-## Help Desk
-
-- osTicket Configuration
-- Ticket Workflow
-- User Onboarding
-- Password Reset Procedure
-- Account Lockout Procedure
-- Remote Support
-
----
-
-## Security
-
-- Password Policy
-- Least Privilege
-- NTFS Permissions
-- Share Permissions
-- Security Baselines
-- Backup Strategy
-
----
-
-## Automation
-
-- PowerShell Scripts
-- User Automation
-- Group Automation
-- Reporting
-
----
-
-## Incident Documentation
-
-- Incident Reports
-- Root Cause Analysis
-- Lessons Learned
-
----
-
-## Standard Operating Procedures (SOPs)
-
-- Creating Users
-- Offboarding Users
-- Adding Group Membership
-- Creating Department Shares
-- Restoring Files
-- Printer Deployment
-- VPN Access
 
 ---
 
@@ -201,3 +126,26 @@ Status: 🟢 Active Development
 Version: 1.0
 
 Completion: 30%
+
+---
+
+## Related Sections
+
+- 00-Project-Management
+- 03-Sprint-01-Enterprise-Infrastructure
+- 10-Diagrams
+- 11-PowerShell
+- 12-SOP-Library
+- 13-Ticket-Walkthroughs
+- 14-Knowledge-Base
+- 15-Incident-Reports
+
+---
+
+**Northwind Technologies**
+
+Information Technology Services (ITS)
+
+Enterprise IT Support Lab
+
+© 2026 Northwind Technologies
