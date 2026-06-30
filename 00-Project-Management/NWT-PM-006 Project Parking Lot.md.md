@@ -1,16 +1,19 @@
-# Enterpirise IT Support Lab
+| Property | Value |
+|----------|-------|
+| **Company** | Northwind Technologies |
+| **Department** | Information Technology Services (ITS) |
+| **Document ID** | NWT-PM-006 |
+| **Document Type** | Project Parking Lot |
+| **Classification** | Internal Use |
+| **Version** | Living Document |
+| **Status** | Active |
+| **Author** | Brandon J. Cooper |
+| **Document Owner** | Information Technology Services (ITS) |
+| **Last Updated** | June 2026 |
 
-Document Type: Navigation
+# NWT-PM-006 Project Parking Lot
 
-Classification: Internal Use
-
-Repository: Enterprise IT Support Lab
-
-Status: Active
-
-Version: 1.0
-
-Last Updated: June 2026
+*Enterprise IT Modernization Project*
 
 ---
 
@@ -44,19 +47,27 @@ Items should include:
 
 Ideas remain in the Project Parking Lot until they are scheduled for implementation or removed during a project review.
 
-# Project Management Principles
+---
 
-Northwind Technologies follows these principles throughout the Enterprise IT Modernization Project:
+# Northwind Project Management Principles
 
-- Finish the current deliverable before beginning new work.
-- Capture ideas without interrupting implementation.
-- Standardize successful processes after practical use.
-- Continuously improve documentation through scheduled review cycles.
-- Maintain documentation consistency across the repository.
+1. Finish the current deliverable before beginning new work.
+
+2. Capture ideas without interrupting implementation.
+
+3. Standardize successful processes after practical use.
+
+4. Continuously improve documentation through scheduled review cycles.
+
+5. Maintain documentation consistency across the repository.
+
+6. Build → Review → Standardize.
+
+7. Tell the business story, not just the technical steps.
 
 ---
 
-Current Sprint
+# Current Sprint
 
 | Priority | Item                             |    Status   |
 | -------- | -------------------------------- | :---------: |
@@ -65,18 +76,21 @@ Current Sprint
 
 ---
 
-| Priority | Item                             |    Status   |
-| -------- | -------------------------------- | :---------: |
-| 🔴       | Complete NWT-SPR-201 Overview | Pending |
+# Next Sprint
+
+| Priority | Item                                 |  Status |
+| -------- | ------------------------------------ | :-----: |
+| 🟡       | Create NWT-SPR-201 Sprint 2 Overview | Planned |
+
 
 
 ---
 
 # Repository Improvements
 
-| Priority | Improvement | Target Phase | Status |
-| -------- | ----------- | ------------ | :----: |
-
+| Priority | Improvement                                              | Target Phase    |  Status |
+| -------- | -------------------------------------------------------- | --------------- | :-----: |
+| 🔵       | Generate executive PDF versions of key project documents | Sprint 1 Polish | Planned |
 
 ---
 
@@ -84,20 +98,20 @@ Current Sprint
 
 | Priority | Improvement                                                   | Target          |
 | -------- | ------------------------------------------------------------- | --------------- |
-| 🔵       | Add Northwind Documentation Framework Appendix to NWT-STD-002 | Sprint 1 Polish |
-
+| 🔵       | Add Northwind Documentation Framework appendix to NWT-STD-002 | Sprint 1 Polish |
+| ⚪        | Standardize milestone operational readiness wording           | Sprint 1 Review |
 
 ---
 
 # Future Enhancements
 
-Microsoft 365 Tenant
-Azure Intergration
-Intune
-SCCM
-Windows Deployment Services
-PKI
-Monitoring Expansion
+- Microsoft 365 Tenant
+- Azure Integration
+- Microsoft Intune
+- SCCM / MECM
+- Windows Deployment Services (WDS)
+- Public Key Infrastructure (PKI)
+- Enterprise Monitoring Expansion
 
 ---
 
@@ -123,11 +137,16 @@ Questions, suggested improvements, and documentation corrections should be revie
 
 ---
 
+────────────────────────────────────────
 
-**Northwind Technologies**
+Northwind Technologies
 
 Information Technology Services (ITS)
 
-Enterprise IT Support Lab
+Enterprise IT Modernization Project
+
+Innovate • Secure • Support
 
 © 2026 Northwind Technologies
+
+────────────────────────────────────────
