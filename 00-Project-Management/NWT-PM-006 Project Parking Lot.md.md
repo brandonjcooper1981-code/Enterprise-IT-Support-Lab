@@ -67,12 +67,15 @@ Ideas remain in the Project Parking Lot until they are scheduled for implementat
 
 ---
 
+Only items that directly impact the successful completion of the current project phase should appear in the Current Sprint section. All other ideas should remain in their appropriate planning category until scheduled for implementation.
+
+---
+
 # Current Sprint
 
 | Priority | Item                             |    Status   |
 | -------- | -------------------------------- | :---------: |
 | 🔴       | Complete NWT-SPR-102 Milestone 1 | In Progress |
-
 
 ---
 
@@ -81,8 +84,6 @@ Ideas remain in the Project Parking Lot until they are scheduled for implementat
 | Priority | Item                                 |  Status |
 | -------- | ------------------------------------ | :-----: |
 | 🟡       | Create NWT-SPR-201 Sprint 2 Overview | Planned |
-
-
 
 ---
 
@@ -105,13 +106,13 @@ Ideas remain in the Project Parking Lot until they are scheduled for implementat
 
 # Future Enhancements
 
-- Microsoft 365 Tenant
-- Azure Integration
-- Microsoft Intune
-- SCCM / MECM
-- Windows Deployment Services (WDS)
-- Public Key Infrastructure (PKI)
-- Enterprise Monitoring Expansion
+- [ ] Microsoft 365 Tenant
+- [ ] Azure Integration
+- [ ] Microsoft Intune
+- [ ] SCCM / MECM
+- [ ] Windows Deployment Services (WDS)
+- [ ] Public Key Infrastructure (PKI)
+- [ ] Enterprise Monitoring Expansion
 
 ---
 
