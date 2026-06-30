@@ -28,9 +28,52 @@ This documentation simulates the internal knowledge base used by Systems Adminis
 
 ---
 
-# Enterprise Network Diagram
+# The Documentation Library
 
-![Enterprise Network Diagram](../Diagrams/01-Network/Enterprise-Network-Diagram.png)
+| Document ID | Document                   | Status |
+| ----------- | -------------------------- | :----: |
+| NWT-ENT-001 | Company Profile            |    ✅   |
+| NWT-ENT-002 | Enterprise Architecture    |    ✅   |
+| NWT-ENT-003 | Enterprise Network Diagram |   🟡   |
+| NWT-ENT-004 | Server Inventory           |   🟡   |
+| NWT-ENT-005 | IP Address Plan            |   🟡   |
+| NWT-ENT-006 | Naming Standards           |   🟡   |
+| NWT-ENT-007 | Organization Chart         |    ⏳   |
+| NWT-ENT-008 | Enterprise File Services   |    ⏳   |
+| NWT-ENT-009 | Disaster Recovery Overview |    ⏳   |
+| NWT-ENT-010 | Security Baseline          |    ⏳   |
+
+The Enterprise Documentation library defines the architecture, standards, and operational design of the Northwind Technologies environment. These documents provide the technical foundation for every sprint, procedure, and implementation guide within the Enterprise IT Support Lab.
+
+---
+
+# Reading Order
+
+1. Company Profile
+
+↓
+
+2. Enterprise Architecture
+
+↓
+
+3. Network Diagram
+
+↓
+
+4. Server Inventory
+
+↓
+
+5. IP Address Plan
+
+↓
+
+6. Naming Standards
+
+↓
+
+7. Organization Chart
 
 ---
 
@@ -51,6 +94,8 @@ This documentation simulates the internal knowledge base used by Systems Adminis
 | File Services | Enterprise file share configuration |
 | Security Standards | Security baselines |
 | Disaster Recovery | Recovery planning |
+
+
 
 ## Project Management
 
@@ -149,13 +194,10 @@ All documentation follows these principles:
 
 # Documentation Status
 
-| Document | Status |
-|-----------|--------|
-| Project Charter | ✅ Complete |
-| Company Profile | 🟡 In Progress |
-| Network Overview | Planned |
-| Server Inventory | Planned |
-| AD Design | Planned |
-| GPO Documentation | Planned |
-| SOP Library | Planned |
-| Incident Reports | Planned |erience in Help Desk, System Administration, Networking, and Cybersecurity.
+Enterprise Documentation
+
+Status: 🟢 Active Development
+
+Version: 1.0
+
+Completion: 30%
