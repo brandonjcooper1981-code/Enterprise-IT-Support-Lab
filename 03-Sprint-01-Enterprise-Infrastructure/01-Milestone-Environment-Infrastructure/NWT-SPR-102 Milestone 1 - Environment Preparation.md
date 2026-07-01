@@ -58,6 +58,95 @@ Milestone 1 addresses these requirements by establishing the foundational infras
 
 ---
 
+# Objectives
+
+Milestone 1 was designed to accomplish the following objectives:
+
+- Prepare the Oracle VirtualBox virtualization platform.
+- Deploy Windows Server 2025.
+- Deploy Windows 11 Enterprise.
+- Deploy Ubuntu Server.
+- Configure enterprise virtual networking.
+- Assign standardized system names.
+- Validate communication between systems.
+- Prepare the environment for Active Directory deployment.
+
+---
+
+# Architecture References
+
+This milestone supports the enterprise architecture defined in:
+
+- NWT-ENT-001 Company Profile
+- NWT-ENT-002 Enterprise Architecture
+- NWT-ENT-003 Enterprise Network Diagram
+- NWT-PM-001 Project Charter
+
+---
+
+# Implementation
+
+1. Environment Planning
+
+2. Oracle VirtualBox Configuration
+
+3. Windows Server 2025 Deployment
+
+4. Windows 11 Enterprise Deployment
+
+5. Ubuntu Server Deployment
+
+6. Virtual Network Configuration
+
+7. Initial Connectivity Validation
+
+8. Snapshot and Environment Baseline
+
+---
+
+# Validation
+
+| Validation Test          | Result |
+| ------------------------ | :----: |
+| Windows Server Installed |    ✅   |
+| Windows 11 Installed     |    ✅   |
+| Ubuntu Installed         |    ✅   |
+| Static IP Configured     |    ✅   |
+| VM Communication         |    ✅   |
+
+---
+
+# Troubleshooting
+
+VM wouldn't boot
+Wrong adapter
+ISO issue
+Boot order
+Guest Additions
+
+---
+
+# Lessons Learned
+
+Plan networking before installing services.
+Name systems consistently.
+Validate after every major configuration.
+Snapshots reduce recovery time.
+
+---
+
+# Project Metrics
+
+| Metric              | Value |
+| ------------------- | ----: |
+| Virtual Machines    |     3 |
+| Operating Systems   |     3 |
+| Networks Configured |     2 |
+| Validation Tests    |     7 |
+| Issues Resolved     |     5 |
+
+---
+
 # Operational Readiness
 
 | Component              | Status |
@@ -80,6 +169,22 @@ Milestone 1 addresses these requirements by establishing the foundational infras
 ## Operational Readiness Statement
 
 Following successful implementation, validation, and documentation, Milestone 1 has been completed and approved for transition to Milestone 2 – Active Directory Infrastructure.
+
+---
+
+# Related Readiness
+
+NWT-SPR-101
+
+NWT-ENT-001
+
+NWT-ENT-002
+
+NWT-PM-001
+
+NWT-STD-001
+
+NWT-STD-002
 
 ---
 
@@ -114,20 +219,16 @@ Please submit documentation corrections through the Northwind Technologies Infor
 
 ---
 
+────────────────────────────────────────
 
-Project: Enterprise IT Modernization
+Northwind Technologies
 
-Sprint: Sprint 1
+Information Technology Services (ITS)
 
-Milestone: Milestone 2
+Enterprise IT Modernization Project
 
-Status: Complete
+Innovate • Secure • Support
 
-Owner: Brandon J. Cooper
+© 2026 Northwind Technologies
 
-Department: Information Technology Services (ITS)
-
-Related Documents:
-NWT-ENT-001
-NWT-ENT-002
-NWT-PM-001
+────────────────────────────────────────
