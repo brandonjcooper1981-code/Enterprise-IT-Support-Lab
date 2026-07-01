@@ -95,7 +95,7 @@ The project is organized into multiple implementation sprints covering Active Di
 
 ## Enterprise Network Diagram
 
-![Enterprise Network Diagram](10-Diagrams/01-Network/Enterpirse-Network-Diagram.png)
+![Enterprise Network Diagram](10-Diagrams/01-Network/Enterprise-Network-Diagram.png)
 
 ---
 
