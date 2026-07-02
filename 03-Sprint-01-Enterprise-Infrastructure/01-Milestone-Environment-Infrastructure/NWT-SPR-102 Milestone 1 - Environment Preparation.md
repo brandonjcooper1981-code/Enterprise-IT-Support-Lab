@@ -105,7 +105,24 @@ The primary objective of the planning phase remained consistent throughout the p
 
 The environment established during this phase provided the standardized foundation required for the successful implementation of Active Directory, enterprise network services, file services, and Help Desk operations documented throughout the remaining Sprint 1 milestones.
 
-2. Oracle VirtualBox Configuration
+## Phase 2 – Oracle VirtualBox Configuration
+
+Oracle VirtualBox was selected as the virtualization platform for the Enterprise IT Modernization Project due to its familiarity, flexibility, and suitability for enterprise lab development. Having previously used Oracle VirtualBox throughout the NGT Academy training program, the platform provided a reliable foundation while allowing implementation efforts to focus on enterprise infrastructure rather than learning a new virtualization solution.
+
+Before any virtual machines were deployed, the implementation environment required careful preparation. Installation media for Windows Server 2025, Windows 11 Enterprise, Ubuntu Server were downloaded and organized to ensure each operating system was readily available throughout the deployment process. In addition, sufficient host storage, processor resources, and memory allocations were verified to support multiple simultaneously running virtual machines.
+
+Virtual machine resource allocation was planned to provide stable performance while remaining within the capabilities of the host workstation. Each virtual machine was initially assigned a minimum of 4 GB of memory, which provided sufficient performance for operating system installation, enterprise services, validation activities, and troubleshooting throughout Sprint 1.
+
+Enterprise network communication was established through a standardized dual-adapter configuration for every virtual machine. Each system utilized:
+
+- **Adapter 1:** NAT Network for Internet connectivity and software updates.
+- **Adapter 2:** Host-Only Adapter to provide isolated communication between enterprise systems within the Northwind Technologies environment.
+
+This configuration allowed the environment to maintain Internet access while simultaneously supporting secure internal communication between the domain controller, client workstation, Linux servers, and supporting enterprise services.
+
+Several implementation challenges were encountered while preparing the virtualization platform. Initial deployment issues included incorrect virtual network adapter assignments, boot failures caused by improper virtual boot order configuration, and installation media that was either improperly attached or failed to mount correctly. Each issue was investigated, corrected, and validated before continuing with subsequent infrastructure deployment activities.
+
+Completing the virtualization platform before installing enterprise services established a stable baseline for the remainder of Sprint 1. By validating the virtualization environment first, future troubleshooting efforts could focus on operating system and infrastructure configuration rather than underlying platform issues. This phased implementation strategy reduced deployment risk while improving consistency throughout the Enterprise IT Modernization Project.
 
 3. Windows Server 2025 Deployment
 
