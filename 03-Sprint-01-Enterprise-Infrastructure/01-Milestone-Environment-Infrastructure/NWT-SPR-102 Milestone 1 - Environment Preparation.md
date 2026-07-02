@@ -86,7 +86,24 @@ This milestone supports the enterprise architecture defined in:
 
 # Implementation
 
-1. Environment Planning
+## Phase 1 – Environment Planning
+
+The Enterprise IT Modernization Project began with the objective of building a realistic Help Desk environment. As planning progressed and additional enterprise services were introduced, the project naturally evolved into a fully functioning Information Technology Services (ITS) department for Northwind Technologies.
+
+A virtualized infrastructure was selected to provide a flexible, scalable, and cost-effective deployment platform. Virtualization significantly reduced the need for additional physical hardware while minimizing space requirements, simplifying maintenance, and allowing the environment to be easily modified, tested, and restored throughout the implementation process. These advantages made virtualization the preferred solution for developing and validating the enterprise infrastructure.
+
+During the planning phase, three core systems were identified as essential to the project:
+Each virtual machine was assigned a clearly defined operational role to support the enterprise services planned for Sprint 1.
+
+- **DC01** – Windows Server 2025 to provide enterprise infrastructure services including Active Directory, DNS, DHCP, file services, and centralized administration.
+- **CLIENT01** – Windows 11 Enterprise workstation used for domain integration, end-user validation, policy testing, and troubleshooting activities.
+- **Ubuntu Server** – Linux server hosting the osTicket Help Desk platform and supporting services.
+
+Although each virtual machine was assigned an initial purpose during planning, the overall environment evolved throughout implementation as additional enterprise services, documentation standards, and operational requirements were identified. This iterative approach allowed the infrastructure to grow naturally while maintaining alignment with the goals of the Enterprise IT Modernization Project.
+
+The primary objective of the planning phase remained consistent throughout the project: to build a realistic enterprise environment that accurately reflected the daily responsibilities of an Information Technology Services department while providing practical experience with enterprise infrastructure deployment, administration, troubleshooting, and documentation.
+
+The environment established during this phase provided the standardized foundation required for the successful implementation of Active Directory, enterprise network services, file services, and Help Desk operations documented throughout the remaining Sprint 1 milestones.
 
 2. Oracle VirtualBox Configuration
 
