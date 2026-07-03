@@ -124,7 +124,21 @@ Several implementation challenges were encountered while preparing the virtualiz
 
 Completing the virtualization platform before installing enterprise services established a stable baseline for the remainder of Sprint 1. By validating the virtualization environment first, future troubleshooting efforts could focus on operating system and infrastructure configuration rather than underlying platform issues. This phased implementation strategy reduced deployment risk while improving consistency throughout the Enterprise IT Modernization Project.
 
-3. Windows Server 2025 Deployment
+## Phase 3 – Windows Server 2025 Deployment
+
+Windows Server 2025 was selected as the enterprise server platform for the Northwind Technologies Enterprise IT Modernization Project because it represented the latest Microsoft server operating system while providing the most current enterprise features and management capabilities. As the foundation of the organization's infrastructure, Windows Server 2025 offered an ideal environment for developing practical experience with modern enterprise administration while reflecting technologies commonly deployed throughout business environments.
+
+The Windows Server deployment was prioritized before all other enterprise services because it would become the central management platform for the entire environment. Core infrastructure services including Active Directory Domain Services, DNS, DHCP, centralized authentication, and enterprise administration would all rely upon the successful deployment and configuration of this server. Establishing a stable server platform first ensured that subsequent implementation phases were built upon a reliable and validated foundation.
+
+Following the initial operating system installation, the first administrative task was to rename the server according to the Northwind Technologies naming standard. The system was assigned the hostname DC01 in accordance with the Northwind Technologies server naming standard, identifying it as the organization's first Domain Controller. Establishing standardized naming conventions early in the deployment improved administrative consistency while simplifying future management and troubleshooting activities.
+
+Once the server identity had been established, a static IPv4 address was assigned to provide consistent network communication throughout the enterprise environment. Maintaining a fixed IP address ensured that infrastructure services, client systems, and future server roles could consistently locate and communicate with the enterprise server throughout the deployment process.
+
+Successful deployment was validated through multiple verification procedures. Windows Server completed installation successfully, administrative logins were verified, Server Manager loaded without errors, and the operating system demonstrated stable functionality. These validation activities confirmed that the server was ready for enterprise role installation and additional infrastructure configuration.
+
+Several implementation challenges were encountered during server deployment. Initial boot failures were traced to incorrect virtual machine boot order settings, while subsequent networking issues required adjustments to the virtual network adapters, DNS configuration, and static IP addressing. Each issue was systematically investigated and resolved before continuing with additional infrastructure deployment, ensuring that the operating system platform remained stable throughout the remainder of the project.
+
+Preparing the Windows Server environment before introducing Active Directory significantly reduced deployment risk by establishing a stable infrastructure platform capable of supporting enterprise services. As the central management system within the Northwind Technologies environment, the server became the foundation upon which identity management, network services, file services, and centralized administration would ultimately depend. Completing this phase successfully prepared the environment for the Active Directory infrastructure deployment documented in Phase 4.
 
 4. Windows 11 Enterprise Deployment
 
