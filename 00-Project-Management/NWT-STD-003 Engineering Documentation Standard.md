@@ -10,14 +10,17 @@ Engineering Documentation Standard
 4. Required Sections
 
  - Quick Reference
-    | Field                    | Description                        |
-    | ------------------------ | ---------------------------------- |
-    | **Estimated Build Time** | Rough implementation time          |
-    | **Difficulty**           | Beginner / Intermediate / Advanced |
-    | **System**               | Primary system affected            |
-    | **Dependencies**         | What must already exist            |
-    | **Validation Required**  | Yes/No                             |
-    | **Expected Outcome**     | End state of the procedure         |
+
+   | Item | Value |
+   |------|-------|
+   | Estimated Build Time | |
+   | Difficulty | Beginner / Intermediate / Advanced |
+   | Primary System | |
+   | Supporting Systems | *(Optional)* |
+   | Operating System | |
+   | Dependencies | |
+   | Validation Required | Yes / No |
+   | Expected Outcome | |
 
  - Purpose
  - Business Reason
@@ -33,12 +36,12 @@ Engineering Documentation Standard
  - Related Engineering Guides
  - Document Footer
 
-5. Validation Standards
+1. Validation Standards
 
-6. Troubleshooting Standards
+2. Troubleshooting Standards
 
-7. Lessons Learned Standards
+3. Lessons Learned Standards
 
-8. Engineering Writing Guidelines
+4. Engineering Writing Guidelines
 
-9. Revision History
+5. Revision History
