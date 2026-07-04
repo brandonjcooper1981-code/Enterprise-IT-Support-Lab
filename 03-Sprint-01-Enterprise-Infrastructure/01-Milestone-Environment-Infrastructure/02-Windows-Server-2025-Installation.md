@@ -92,9 +92,22 @@ The following validation criteria were successfully verified:
 - Verify network connectivity before promoting the server to a Domain Controller.
 - Establish a stable operating system baseline before introducing enterprise services.
 
+---
+
 ## Related Engineering Guides
 
 - Oracle VirtualBox Configuration
-- Windows 11 Enterprise Installation
-- Ubuntu Server Installation
-- Environment Validation
+- Windows Server 2025 Installation
+- Active Directory Deployment
+
+---
+
+Northwind Technologies
+
+Information Technology Services (ITS)
+
+Enterprise IT Modernization Project
+
+Engineering Documentation Standard
+
+© 2026 Northwind Technologies
