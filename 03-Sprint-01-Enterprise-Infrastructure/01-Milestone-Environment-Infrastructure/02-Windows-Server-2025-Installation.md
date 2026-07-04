@@ -1,5 +1,9 @@
 # Windows Server 2025 Installation
 
+## Engineering Guide
+
+This document describes the Northwind Technologies engineering standard for deploying Windows Server 2025 within the Enterprise IT Modernization Project.
+
 ## Quick Reference
 
 | Item                 | Value                                                           |
