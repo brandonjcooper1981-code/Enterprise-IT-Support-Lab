@@ -9,23 +9,24 @@ Engineering Documentation Standard
 
 4. Required Sections
 
-    • Quick Reference
-    • Purpose
-    • Business Reason
-    • Architecture Decision
-    • Prerequisites
-    • Procedure
-    • Validation Criteria
-    • Troubleshooting
-    • Lessons Learned
-    • Related Engineering Guides
+ - Quick Reference
+ - Purpose
+ - Business Reason
+ - Architecture Decision
+ - Prerequisites
+ - Procedure
+ - Validation Criteria
+ - Troubleshooting
+ - Operational Perspective
+ - Lessons Learned
+ - Related Engineering Guides
 
-5. Validation Standards
+1. Validation Standards
 
-6. Troubleshooting Standards
+2. Troubleshooting Standards
 
-7. Lessons Learned Standards
+3. Lessons Learned Standards
 
-8. Engineering Writing Guidelines
+4. Engineering Writing Guidelines
 
-9. Revision History
+5. Revision History
