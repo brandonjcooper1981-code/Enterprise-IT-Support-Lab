@@ -39,7 +39,12 @@ The following requirements must be completed before beginning this procedure.
 - Enterprise networking configured
 - Static IP and DNS operational on DC01
 
-## Procedure
+## Required Software
+
+- Windows 11 Enterprise ISO
+- Oracle VirtualBox
+
+## Implementation Procedure
 
 1. Deploy the CLIENT01 Virtual Machine
 
