@@ -6,6 +6,17 @@ This document describes the Northwind Technologies engineering standard for depl
 
 ## Quick Reference
 
+| Item | Value |
+|------|-------|
+| Estimated Build Time | 30–45 Minutes |
+| Difficulty | Intermediate |
+| Primary System | Ubuntu01 |
+| Supporting Systems | DC01 (Domain Controller), CLIENT01 (Enterprise Workstation) |
+| Operating System | Ubuntu Server |
+| Dependencies | Oracle VirtualBox, DC01 Operational, CLIENT01 Operational |
+| Validation Required | Yes |
+| Expected Outcome | Ubuntu Server operational and prepared for Wazuh and osTicket deployment |
+
 ## Purpose
 
 Initially, the Ubuntu Server was introduced to host Wazuh for centralized security monitoring and diagnostics. As the Northwind Technologies environment expanded, its role evolved to include osTicket, providing a dedicated Linux platform for enterprise Help Desk operations and ticket management.
@@ -33,7 +44,7 @@ The following requirements must be completed before beginning this procedure.
 - Enterprise networking configured
 - Static IP and DNS operational on DC01
 
-## Required Software
+## Required Software & Tools
 
 - Ubuntu Server LTS ISO
 - Oracle VirtualBox
@@ -42,7 +53,25 @@ The following requirements must be completed before beginning this procedure.
 
 ## Implementation Procedure
 
+1. Prepare the Virtual Environment
 
+    Before creating the Ubuntu Server virtual machine, the latest Ubuntu Server LTS installation media was downloaded and attached within Oracle VirtualBox. Hardware resources were allocated according to the standardized Northwind virtualization configuration, using modest CPU and memory allocations appropriate for Linux server workloads. Network Adapter 1 was configured for NAT connectivity while Adapter 2 utilized the Host-Only network to support secure communication with other enterprise systems.
+
+2. Install Ubuntu Server
+
+    The virtual machine was configured to boot from the Ubuntu Server installation media. Default installation options were selected along with the recommended server components, while optional software packages were intentionally deferred until after operating system deployment. An administrative account was created during installation to provide secure management access.
+
+3. Configure Initial Server Settings
+
+    Following the initial reboot, the server hostname was updated to align with Northwind Technologies naming standards. Network settings were verified, DNS resolution was configured to communicate with DC01, and system updates were installed using the APT package manager. These baseline configuration tasks ensured a stable operating environment before additional enterprise services were introduced.
+
+4. Prepare Enterprise Services
+
+    With the operating system fully updated, enterprise networking was validated by confirming communication with both DC01 and CLIENT01. Package repositories were refreshed to ensure compatibility with future software deployments. Completing these preparations established a reliable Linux platform capable of supporting enterprise security monitoring and Help Desk applications.
+
+5. Verify Enterprise Readiness
+
+    Final readiness verification confirmed successful communication between all enterprise systems, accurate DNS resolution, current operating system updates, and stable network connectivity. These validation activities confirmed that the Ubuntu Server platform was prepared for subsequent deployment of Wazuh, osTicket, and additional Linux-based enterprise services.
 
 ## Validation Criteria
 
@@ -74,6 +103,10 @@ Linux and Windows Server serve different roles within the Northwind Technologies
 - Verify VirtualBox networking before powering on the server.
 - Validate command syntax before troubleshooting operating system issues.
 - Confirm package manager commands match the installed Ubuntu release.
+
+## Engineering Recommendation
+
+Northwind Technologies recommends maintaining standardized virtual hardware, networking, and system naming conventions throughout deployment. Consistent configurations simplify troubleshooting, reduce configuration drift, improve documentation accuracy, and create a repeatable engineering process for future infrastructure deployments.
 
 ---
 
