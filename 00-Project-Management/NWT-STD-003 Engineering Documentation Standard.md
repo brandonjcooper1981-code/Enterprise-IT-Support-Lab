@@ -21,14 +21,17 @@ Engineering Documentation Standard
 
  - Purpose
  - Business Reason
+ - Platform Strrategy (optional)
  - Architecture Decision
  - Prerequisites
- - Procedure
+ - Required Software & Tools
+ - Implementation Procedure
  - Validation Criteria
  - Troubleshooting
  - Operational Perspective
  - Lessons Learned
  - Related Engineering Guides
+ - Document Footer
 
 5. Validation Standards
 
