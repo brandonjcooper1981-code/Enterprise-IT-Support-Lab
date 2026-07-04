@@ -22,11 +22,39 @@ Northwind Technologies adopts a multi-platform infrastructure strategy by select
 
 Ubuntu Server was selected because of its widespread adoption across enterprise environments, extensive software compatibility, and strong integration with cloud platforms including Microsoft Azure and Amazon Web Services. Its large support community, long-term support releases, and APT package management system simplify deployment while providing enterprise-grade stability.
 
-Prerequisites
+## Prerequisites
 
-Procedure
+The following requirements must be completed before beginning this procedure.
 
-Validation Criteria
+- Oracle VirtualBox installed and operational
+- Windows Server 2025 (DC01) installed
+- Windows 11 Enterprise (CLIENT01) installed
+- Virtual machine created for CLIENT01
+- Enterprise networking configured
+- Static IP and DNS operational on DC01
+
+## Required Software
+
+- Ubuntu Server LTS ISO
+- Oracle VirtualBox
+- SSH
+- APT Package Manager
+
+## Implementation Procedure
+
+
+
+## Validation Criteria
+
+Successful deployment was confirmed by verifying:
+
+- Unbuntu Server booted successfully.
+- All apt updates completed.
+- All services correctly installed and working properly.
+- Unbuntu Server communicated with DC01.
+- DNS resolution succeeded.
+- Umbuntu Server successfully pinged the Domain Controller.
+- Workstation prepared for Active Directory domain join.
 
 ## Troubleshooting
 
