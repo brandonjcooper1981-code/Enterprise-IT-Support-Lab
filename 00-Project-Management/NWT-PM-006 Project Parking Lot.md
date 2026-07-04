@@ -100,7 +100,8 @@ Only items that directly impact the successful completion of the current project
 | Priority | Improvement                                                   | Target          |
 | -------- | ------------------------------------------------------------- | --------------- |
 | 🔵       | Add Northwind Documentation Framework appendix to NWT-STD-002 | Sprint 1 Polish |
-| ⚪        | Standardize milestone operational readiness wording           | Sprint 1 Review |
+| ⚪       | Standardize milestone operational readiness wording           | Sprint 1 Review |
+| 🔵       | Create NWT-STD-003 Engineering Documentation Standard | Sprint 1 Polish Planned |
 
 ---
 
