@@ -1,5 +1,9 @@
 # Oracle VirtualBox Configuration
 
+## Engineering Guide
+
+This document describes the Northwind Technologies engineering standard for deploying Oracle VirtualBox within the Enterprise IT Modernization Project.
+
 ## Purpose
 
 Deploy the virtualization platform required to support the Northwind Technologies enterprise environment.

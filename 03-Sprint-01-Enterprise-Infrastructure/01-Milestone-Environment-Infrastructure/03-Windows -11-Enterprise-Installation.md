@@ -59,7 +59,7 @@ The following requirements must be completed before beginning this procedure.
 
 5. Prepare for Domain Join
 
-    Final verification confirmed that Windows 11 Enterprise booted successfully, network connectivity was operational, administrative access functioned correctly, and the system was fully prepared to join the Active Directory domain.
+   Final verification confirmed that Windows 11 Enterprise booted successfully, network connectivity was operational, administrative access functioned correctly, and the system was fully prepared to join the Active Directory domain.
 
 6. Confirm Enterprise Readiness
 
