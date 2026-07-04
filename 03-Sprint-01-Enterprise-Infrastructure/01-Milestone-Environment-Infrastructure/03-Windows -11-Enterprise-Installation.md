@@ -89,6 +89,7 @@ CLIENT01 provides the operational viewpoint of the enterprise environment. While
 - Oracle VirtualBox Configuration
 - Windows Server 2025 Installation
 - Active Directory Deployment
+- Enterprise Validation
 
 ---
 
