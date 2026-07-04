@@ -38,7 +38,12 @@ The following requirements must be completed before beginning this procedure:
 - Hardware resources allocated according to the Milestone 1 deployment standard
 - Enterprise networking configured (NAT and Host-Only adapters)
 
-## Procedure
+## Required Software
+
+- Windows Server 2025 ISO
+- Oracle VirtualBox
+
+## Implementation Procedure
 
 1. Prepare the Installation Media
 
