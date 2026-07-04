@@ -1,8 +1,20 @@
 # Windows 11 Enterprise Installation
 
+## Engineering Guide
+
+This document describes the Northwind Technologies engineering standard for deploying Windows 11 Enterprise within the Enterprise IT Modernization Project.
+
 ## Quick Reference
 
-
+| Item | Value |
+|------|-------|
+| Estimated Build Time | 30–45 Minutes |
+| Difficulty | Intermediate |
+| System | CLIENT01 |
+| Operating System | Windows 11 Enterprise |
+| Dependencies | Oracle VirtualBox, Windows Server 2025 (DC01) |
+| Validation Required | Yes |
+| Expected Outcome | Enterprise workstation installed, configured, and ready for Active Directory domain join |
 
 ## Purpose
 
@@ -14,7 +26,7 @@ CLIENT01 was deployed as a dedicated enterprise workstation to simulate the expe
 
 ## Architecture Decision
 
-Windows 11 Enterprise was selected because it is the current Microsoft enterprise desktop operating system and reflects what many organizations deploy in production environments. Using Windows 11 Enterprise provided realistic experience with modern domain integration, Group Policy processing, and enterprise workstation administration.
+Windows 11 Enterprise was selected because it is the current Microsoft enterprise desktop operating system and reflects what many organizations deploy in production environments. Using Windows 11 Enterprise provided realistic experience with modern domain integration, Group Policy processing, and enterprise workstation administration. This decision ensured compatibility with the remaining Microsoft enterprise infrastructure while accurately reflecting modern corporate desktop environments.
 
 ## Prerequisites
 
@@ -29,9 +41,9 @@ The following requirements must be completed before beginning this procedure.
 
 ## Procedure
 
-1. Prepare CLIENT01
+1. Deploy the CLIENT01 Virtual Machine
 
-   CLIENT01 served as the primary enterprise workstation used to validate the Northwind Technologies infrastructure. It provided the platform for testing user authentication, domain joins, Group Policy application, security group membership, shared folder access, and general Help Desk operations from the perspective of an end user.
+   A dedicated Windows 11 Enterprise virtual machine was created to serve as the primary enterprise workstation. Hardware resources and virtual networking were configured according to the Northwind Technologies virtualization standard established during Milestone 1.
 
 2. Install Windows 11 Enterprise
 
@@ -50,6 +62,8 @@ The following requirements must be completed before beginning this procedure.
     Final verification confirmed that Windows 11 Enterprise booted successfully, network connectivity was operational, administrative access functioned correctly, and the system was fully prepared to join the Active Directory domain.
 
 6. Confirm Enterprise Readiness
+
+   Final readiness verification confirmed that CLIENT01 was fully operational and prepared for Active Directory integration. Successful communication with DC01, verified DNS resolution, and a stable Windows installation established the workstation as the enterprise validation platform for all subsequent Sprint 1 activities.
 
 ## Validation Criteria
 
