@@ -1,47 +1,182 @@
 NWT-STD-003
-Engineering Documentation Standard
+Northwind Engineering Documentation Standard
 
 1. Purpose
 
+This standard establishes the documentation requirements for engineering guides developed throughout the Northwind Technologies Enterprise IT Modernization Project. Its purpose is to ensure all technical documentation follows a consistent structure, communicates information clearly, and provides repeatable engineering procedures that support deployment, validation, troubleshooting, and long-term maintenance.
+
 2. Scope
 
-3. Engineering Documentation Lifecycle
+This document applies to:
 
-4. Required Sections
+Engineering Guides
+Validation Guides
+Troubleshooting Guides
+Configuration Guides
+Operational Guides
+Future Infrastructure Documentation
 
- - Quick Reference
+3. Documentation Philosophy
 
-   | Item | Value |
-   |------|-------|
-   | Estimated Build Time | |
-   | Difficulty | Beginner / Intermediate / Advanced |
-   | Primary System | |
-   | Supporting Systems | *(Optional)* |
-   | Operating System | |
-   | Dependencies | |
-   | Validation Required | Yes / No |
-   | Expected Outcome | |
+Northwind Technologies engineering documentation is built upon the following principles:
 
- - Purpose
- - Business Reason
- - Platform Strrategy (optional)
- - Architecture Decision
- - Prerequisites
- - Required Software & Tools
- - Implementation Procedure
- - Validation Criteria
- - Troubleshooting
- - Operational Perspective
- - Lessons Learned
- - Related Engineering Guides
- - Document Footer
+• Build a stable foundation before introducing additional services.
 
-1. Validation Standards
+• Standardize configurations whenever possible.
 
-2. Troubleshooting Standards
+• Validate every implementation before proceeding.
 
-3. Lessons Learned Standards
+• Troubleshoot methodically using evidence rather than assumptions.
 
-4. Engineering Writing Guidelines
+• Document engineering decisions, not just technical procedures.
 
-5. Revision History
+• Create documentation that is repeatable, maintainable, and scalable.
+
+4. Engineering Guide Types
+    • Installation
+      Purpose:
+        Deploy new infrastructure
+      Examples:
+        Windows Server
+        Windows 11
+        Ubuntu
+    • Configuration
+      Purpose:
+        Configure enterprise services
+      Examples:
+        Active Directory
+        DNS
+        DHCP
+        File Services
+    • Validation
+      Purpose:
+        Verify enterprise functionality
+      Examples:
+        Enterprise Validation
+    • Troubleshooting
+      Purpose:
+        Document engineering troubleshooting methodology
+    • Operations
+      Purpose:
+        Support day-to-day enterprise operations
+      Examples:
+        osTicket
+        Microsoft 365
+        Automation
+
+5. Standard Document Structure
+
+Quick Reference
+
+Purpose
+
+Business Reason
+
+Platform Strategy (optional)
+
+Architecture Decision / Validation Strategy / Troubleshooting Philosophy
+
+Prerequisites
+
+Required Software & Tools
+
+Implementation Procedure
+
+Validation Criteria
+
+Troubleshooting
+
+Operational Perspective
+
+Lessons Learned
+
+Engineering Recommendation
+
+Related Engineering Guides
+
+6. Quick Reference Standard
+
+  | Item | Value |
+  |------|-------|
+  | Estimated Time | |
+  | Difficulty | |
+  | Document Type | |
+  | Primary System | |
+  | Supporting Systems | *(Optional)* |
+  | Operating System(s) | |
+  | Dependencies | |
+  | Validation Required | |
+  | Expected Outcome | |
+  | Scope | *(Installation / Validation / Troubleshooting / Operations)* |
+  | Next Guide | |
+
+7. Writing Standards
+
+  - Write from an engineering perspective.
+  - Explain why, not just how.
+  - Use business justification where appropriate.
+  - Prefer paragraphs over one-line bullet explanations.
+  - Procedures should explain intent as well as actions.
+  - Use consistent terminology throughout the repository.
+  - Avoid unnecessary repetition.
+
+8. Procedure Standards
+
+A procedure should answer:
+
+  - What is being done?
+  - Why is it necessary?
+  - How is it validated?
+  - What is the expected outcome?
+
+9.  Validation Standards
+
+Every engineering guide must include:
+
+  - Validation Criteria
+  - Expected Results
+  - Operational Readiness
+
+10. Troubleshooting Standards
+
+Every troubleshooting section should include:
+
+  - Symptoms
+  - Root Cause
+  - Resolution
+  - Prevention (when applicable)
+
+11. Lessons Learned Standards
+
+Lessons should focus on:
+
+  - Engineering improvements
+  - Standardization
+  - Future deployments
+
+12. Engineering Recommendations
+
+Standardize configurations to reduce troubleshooting time.
+
+13. Related Engineering Guides
+
+Every guide should reference its dependencies and successors.
+
+14. Document Naming Standards
+
+  - NWT-STD-003
+  - NWT-SPR-101
+  - NWT-SOP-004
+  - NWT-TS-003
+  - NWT-ENT-006
+  - NWT-PM-004
+
+15. Version Control
+
+  - Major Version → Structural changes
+  - Minor Version → New content
+  - Patch Version → Formatting, spelling, corrections
+
+16. Future Revisions
+
+This standard is expected to evolve as the Northwind Enterprise IT Modernization Project grows and new document types are introduced.

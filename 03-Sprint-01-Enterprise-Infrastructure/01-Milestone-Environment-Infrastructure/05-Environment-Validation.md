@@ -128,13 +128,9 @@ Validation activities confirmed that DC01, CLIENT01, and Ubuntu01 were operating
 ## Lessons Learned
 
 - Validate one infrastructure layer at a time.
-
 - Verify DNS before troubleshooting authentication.
-
 - Confirm user permissions using real test accounts.
-
 - Test failed authentication as well as successful authentication.
-
 - Complete infrastructure validation before introducing additional enterprise services.
 
 ## Engineering Recommendation
