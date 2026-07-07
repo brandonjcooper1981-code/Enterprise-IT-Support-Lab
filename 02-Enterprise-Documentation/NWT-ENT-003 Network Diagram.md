@@ -1,6 +1,17 @@
 # NWT-ENT-003 Network Diagram
 
-Version: 1.0
+| Property | Value |
+|----------|----------------------------|
+| Company | Northwind Technologies |
+| Department | Information Technology Services |
+| Document ID | NWT-ENT-003 |
+| Document Type | Enterprise Governance Standard |
+| Classification | Internal Use |
+| Version | 1.0 |
+| Status | Approved |
+| Author | Brandon J. Cooper |
+| Owner | ITS |
+| Last Updated | June 2026 |
 
 ---
 
