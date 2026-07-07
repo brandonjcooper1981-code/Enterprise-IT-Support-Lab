@@ -4,6 +4,20 @@ Welcome to my Northwind Technologies Enterprise IT Modernization Project.
 
 This portfolio documents the design, implementation, validation, and continuous expansion of the Northwind Technologies Enterprise IT Modernization Project. Through a structured series of implementation sprints, the project demonstrates enterprise infrastructure engineering, systems administration, networking, Help Desk operations, security operations, and professional technical documentation.
 
+## Repository Navigation
+
+| Section | Description |
+|---------|-------------|
+| Portfolio | Resume, skills, certifications, engineering philosophy |
+| Project Management | Charter, roadmap, milestones, risk management |
+| Enterprise Documentation | Enterprise architecture and supporting documentation |
+| Sprint Documentation | Engineering binders and implementation milestones |
+| Diagrams | Network, Active Directory, security, and infrastructure diagrams |
+| SOPs | Standard Operating Procedures |
+| Incident Reports | Security and operational investigations |
+| Ticket Walkthroughs | Help Desk ticket simulations |
+| PowerShell | Enterprise automation scripts |
+
 ## What This Portfolio Demonstrates
 
 This portfolio demonstrates practical experience in:
@@ -95,37 +109,24 @@ Key Deliverables
 
 ## Project Metrics
 
-Current Statistics
-
-Sprint Completed: 1
-
-Engineering Guides: 6+
-
-Standard Operating Procedures: 5
-
-Project Management Documents: 8
-
-Enterprise Documents: 10
-
-Operating Systems Deployed: 3
-
-Virtual Machines: 3
-
-Documentation Standard: Established
-
-Repository Status: Active Development
+| Metric | Status |
+|---------|--------|
+| Sprint Completed | 1 of 7 |
+| Engineering Guides | 6+ |
+| Standard Operating Procedures | 5 |
+| Project Management Documents | 8 |
+| Enterprise Documents | 10 |
+| Operating Systems Deployed | 3 |
+| Virtual Machines | 3 |
+| Documentation Standard | Established |
+| Repository Status | Active Development |
 
 ## Technical Capabilities
 
 Enterprise Infrastructure
-    - Windows Server 2025
-    - Active Directory Domain Services
-    - DNS
-    - DHCP
-    - Enterprise Networking
-    - Windows 11 Enterprise
-    - Ubuntu Server
-    - Engineering Validation
-    - Enterprise Troubleshooting
-    - Engineering Documentation Standard
-
+    - Infrastructure
+    - Identity & Access
+    - Networking
+    - Operating Systems
+    - Documentation
+    - Project Management
