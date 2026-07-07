@@ -80,6 +80,35 @@ These principles guide every deployment, validation, troubleshooting activity, a
 - Document engineering decisions alongside technical procedures.
 - Build repeatable, maintainable, and scalable enterprise solutions.
 
+## Enterprise Environment Overview
+
+Northwind Technologies simulates a mid-sized enterprise Information Technology Services department.
+
+Current Environment
+
+• 1 Domain Controller
+• 1 Enterprise Workstation
+• 1 Ubuntu Enterprise Server
+• Active Directory Domain Services
+• DNS
+• DHCP
+• Group Policy
+• Enterprise File Services
+• Wazuh
+• osTicket
+
+Future Expansion
+
+• Microsoft 365
+
+• Azure
+
+• PowerShell Automation
+
+• Cloud Identity
+
+• Enterprise Monitoring
+
 ## Featured Engineering Projects
 
 Sprint 1 – Enterprise Infrastructure
