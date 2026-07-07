@@ -8,11 +8,11 @@ The project is organized into implementation sprints that simulate the work perf
 
 If you only have 10 minutes, I recommend reviewing the following:
 
-1. [Project Charter](00-Project-Management/Company-Profile.md)
-2. [Project Charter](00-Project-Management/Project-Charter.md)
+1. [Company Profile](02-Enterprise-Documentation/NWT-ENT-001%20Company-Profile.md)
+2. [Project Charter](00-Project-Management/NWT-PM-001%20Project-Charter.md)
 3. [Sprint 1 - Enterprise Infrastructure](03-Sprint-01-Enterprise-Infrastructure/README.md)
 4. [Ticket Walkthroughs](14-Ticket-Walkthroughs/)
-5. [PowerShell](12-PowerShell/)
+5. [PowerShell](12-Automation/)
 6. [Career Portfolio](01-Portfolio/)
 
 ---
@@ -60,9 +60,9 @@ Learn me about me as an IT professional.
 
 ➡️ [Assets](11-Assets/)
 
-➡️ [PowerShell](12-PowerShell/)
+➡️ [PowerShell](12-Automation/)
 
-➡️ [Standard Operating Procedures](13-SOPs/)
+➡️ [Standard Operating Procedures](13-Operations/)
 
 ➡️ [Ticket Walkthroughs](14-Ticket-Walkthroughs/)
 
