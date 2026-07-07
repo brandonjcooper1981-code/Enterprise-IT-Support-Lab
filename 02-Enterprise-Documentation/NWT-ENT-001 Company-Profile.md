@@ -75,6 +75,18 @@ To become a trusted technology partner recognized for operational excellence, se
 
 ---
 
+# IT Strategy
+
+Information Technology Services supports Northwind Technologies through
+standardized enterprise infrastructure, centralized identity management,
+secure networking, operational automation, and continuous process
+improvement.
+
+Technology investments prioritize scalability, security, documentation,
+automation, and operational excellence to ensure long-term business growth.
+
+---
+
 # Core Values
 
 * Security by Design
@@ -111,6 +123,8 @@ Information Technology Services (ITS) supports every department by providing sec
 
 Within the Enterprise IT Support Lab, Brandon J. Cooper serves as the Systems Administrator and Enterprise Infrastructure Project Lead responsible for designing, implementing, documenting, and maintaining the enterprise environment.
 
+Information Technology Services operates as a centralized shared-services organization supporting every department within Northwind Technologies. Standardized infrastructure, enterprise documentation, change management, security operations, and Help Desk services ensure consistent technology delivery across all regional offices.
+
 ---
 
 # Enterprise Departments
@@ -134,13 +148,13 @@ See **NWT-ENT-007 Organization Chart** for the complete organizational hierarchy
 
 ITS is organized into functional teams to ensure efficient delivery of technology services.
 
-| Team                | Responsibilities                                                                   |
-| ------------------- | ---------------------------------------------------------------------------------- |
-| Infrastructure      | Windows Server, Active Directory, DNS, DHCP, File Services, Network Infrastructure |
-| Help Desk           | User Support, Ticket Management, osTicket Administration                           |
-| Security Operations | Microsoft Defender, Wazuh, Sysmon, Security Monitoring                             |
-| Automation          | PowerShell, Scheduled Tasks, Administrative Automation                             |
-| Documentation       | Enterprise Documentation, SOPs, Standards, Knowledge Base                          |
+| Team                | Primary Responsibilities    | Primary Technologies |
+| ------------------- | --------------------------- | -------------------- |
+| Infrastructure      | Active Directory, DNS, DHCP | Windows Server       |
+| End User Services   | Workstations, GPO, Imaging  | Windows 11           |
+| Security Operations | Wazuh, Sysmon, Defender     | SIEM                 |
+| Automation          | PowerShell                  | PowerShell           |
+| Documentation       | Standards, SOPs             | Markdown             |
 
 ---
 
@@ -163,14 +177,16 @@ ITS is organized into functional teams to ensure efficient delivery of technolog
 
 # Strategic Objectives (2026–2027)
 
-* Complete Active Directory modernization.
-* Implement centralized Help Desk operations.
-* Standardize enterprise documentation.
-* Expand PowerShell automation.
-* Strengthen cybersecurity monitoring and response.
-* Begin Microsoft 365 integration.
-* Improve disaster recovery readiness.
-* Deliver secure, reliable, and scalable IT services.
+* Operatinal Objectives
+  * Standardize enterprise documentation.
+  * Complete Active Directory modernization.
+  * Implement centralized Help Desk operations.
+* Technology Objectives
+  * Expand PowerShell automation.
+  * Strengthen cybersecurity monitoring and response.
+  * Begin Microsoft 365 integration.
+  * Improve disaster recovery readiness.
+  * Deliver secure, reliable, and scalable IT services.
 
 ---
 
@@ -208,18 +224,18 @@ The Enterprise IT Support Lab is organized into the following documentation area
 
 # Related Documentation
 
-* NWT-PM-001 Project Charter
-* NWT-PM-002 Roadmap
-* NWT-PM-003 Milestones
-* NWT-PM-004 Risk Register
-* NWT-PM-005 Change Management Plan
-* NWT-STD-001 Enterprise Documentation Standard
-* NWT-ENT-002 Enterprise Architecture
-* NWT-ENT-003 Enterprise Network Diagram
-* NWT-ENT-004 Server Inventory
-* NWT-ENT-005 IP Address Plan
-* NWT-ENT-006 Enterprise Naming Standards
-* NWT-ENT-007 Organization Chart
+* Project Governance
+  * PM-001 Project Charter
+  * PM-002 Roadmap
+  * PM-003 Milestones
+* Enterprise Architecture
+  * ENT-002 Enterprise Architecture
+  * 003 Enterprise Network Diagram
+  * 004 Server Inventory
+* Engineering Documentation
+  * STD-001 Enterprise Documentation Standard
+  * STD-002 Markdown & Document Style Guide
+  * STD-003 Engineering Documentation Standard
 
 ---
 
