@@ -1,7 +1,12 @@
-Completed
+## Completed
 
-In Progress
+## In Progress
 
-Planned
+COMPTia Securitiy+
 
-Professional Development
+## Planned
+
+COMPTia Network+
+
+## Professional Development
+
