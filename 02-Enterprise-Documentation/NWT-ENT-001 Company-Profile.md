@@ -46,18 +46,32 @@ Information Technology Services (ITS) is responsible for designing, implementing
 
 # Company Statistics
 
-| Metric                  | Value             |
-| ----------------------- | ----------------- |
-| Total Employees         | 1,200             |
-| Regional Offices        | 3                 |
-| IT Staff                | 18                |
-| Active Directory Users  | 250+              |
-| Department File Shares  | 9                 |
-| Windows Servers         | 3                 |
-| Windows Clients         | 100+              |
-| Help Desk Platform      | osTicket          |
-| Primary Domain          | NORTHWIND.LOCAL   |
-| Virtualization Platform | Oracle VirtualBox |
+| Metric                         | Value             |
+|--------------------------------|-------------------|
+| Total Employees                | 1,200             |
+| Regional Offices               | 3                 |
+| Enterprise Sites               | 4                 |
+| IT Staff                       | 18                |
+|                                |                   |
+| Active Directory Users         | 250+              |
+| Domain Controllers             | 1                 |
+| Windows Servers                | 3                 |
+| Windows Clients                | 100+              |
+|                                |                   |
+| Network Segments               | 3                 |
+| Department Security Groups     | 12                |
+| Department Shared Folders      | 9                 |
+| Enterprise Shared Resources    | 18                |
+|                                |                   |
+| Primary Domain                 | NORTHWIND.LOCAL   |
+| Virtualization Platform        | Oracle VirtualBox |
+| Help Desk Platform             | osTicket          |
+|                                |                   |
+| Documentation Standards        | 3                 |
+| Engineering Guides             | 6                 |
+| Standard Operating Procedures  | 5                 |
+| PowerShell Modules             | Planned           |
+| Cloud Services                 | Planned           |
 
 ---
 
