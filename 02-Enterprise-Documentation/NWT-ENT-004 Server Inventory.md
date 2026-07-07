@@ -1,6 +1,17 @@
 # NWT-ENT-004 Server Inventory
 
-Document Type: Enterprise Asset Documentation
+| Property | Value |
+|----------|----------------------------|
+| Company | Northwind Technologies |
+| Department | Information Technology Services |
+| Document ID | NWT-ENT-004 |
+| Document Type | Enterprise Governance Standard |
+| Classification | Internal Use |
+| Version | 1.0 |
+| Status | Approved |
+| Author | Brandon J. Cooper |
+| Owner | ITS |
+| Last Updated | June 2026 |
 
 ## Executive Summary
 
