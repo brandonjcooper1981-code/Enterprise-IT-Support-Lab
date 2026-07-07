@@ -177,6 +177,26 @@ Every guide should reference its dependencies and successors.
   - Minor Version → New content
   - Patch Version → Formatting, spelling, corrections
 
-16. Future Revisions
+16. Status Values
+
+| Status       | Description                              |
+| ------------ | ---------------------------------------- |
+| Operational  | Fully functional and available           |
+| Maintenance  | Temporarily unavailable for planned work |
+| Provisioning | Being built or configured                |
+| Testing      | Under validation                         |
+| Offline      | Powered down                             |
+| Retired      | Removed from service                     |
+
+17. Environment Values
+
+| Environment    | Purpose                                 |
+| -------------- | --------------------------------------- |
+| Production Lab | Primary enterprise lab environment      |
+| Development    | Feature development and experimentation |
+| Test           | Functional testing                      |
+| Staging        | Pre-production validation               |
+
+18. Future Revisions
 
 This standard is expected to evolve as the Northwind Enterprise IT Modernization Project grows and new document types are introduced.
