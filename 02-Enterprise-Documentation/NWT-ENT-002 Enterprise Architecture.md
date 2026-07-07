@@ -27,6 +27,21 @@ This architecture serves as the technical foundation for all implementation spri
 
 ---
 
+# Enterprise Design Philosophy
+
+Northwind Technologies follows a centralized enterprise architecture
+designed around simplicity, repeatability, scalability, and operational
+consistency.
+
+Core architectural decisions prioritize standardized configurations,
+centralized identity management, documentation-first engineering,
+automation, and least-privilege security.
+
+Every implementation sprint expands the enterprise without modifying the
+core architectural foundation established during Sprint 1.
+
+---
+
 # Architecture Overview
 
 The following diagram illustrates the high-level enterprise architecture supporting Northwind Technologies.
@@ -211,73 +226,68 @@ Each department utilizes centralized authentication, shared storage, and standar
 
 # Technology Lifecycle
 
-Current
+Technology Evolution
 
+Sprint 1
+-----------
 Windows Server 2025
-
 Windows 11 Enterprise
-
 Ubuntu Server
+Active Directory
 
 ↓
 
-Next
-
-PowerShell Automation
+Sprint 2
+-----------
+Enterprise Operations
+File Services
+Documentation Standards
 
 ↓
 
-Next
+Sprint 3
+-----------
+osTicket
+Help Desk Operations
 
+↓
+
+Sprint 4
+-----------
+Wazuh
+Sysmon
+Security Operations
+
+↓
+
+Sprint 5
+-----------
 Microsoft 365
+Entra ID
 
 ↓
 
-Next
-
-Wazuh SOC
+Sprint 6
+-----------
+PowerShell
+Automation
 
 ↓
 
-Future
-
-Azure Integration
+Sprint 7
+-----------
+Enterprise Capstone
+Operational Readiness
 
 ---
 
 # Infrastructure Architecture
 
-## Domain Services
-
-* Active Directory Domain Services (AD DS)
-* Centralized Authentication
-* Organizational Units (OUs)
-* Security Groups
-* Group Policy
-
----
-
-## Server Infrastructure
-
-### DC01
-
-Role:
-
-* Domain Controller
-* DNS Server
-* DHCP Server
-* Active Directory
-* File Services
-
----
-
-### Ubuntu Server
-
-Role:
-
-* osTicket
-* Linux Services
-* Future Wazuh Server
+| Server   | Purpose                | Primary Services                |
+| -------- | ---------------------- | ------------------------------- |
+| DC01     | Enterprise Identity    | AD DS, DNS, DHCP, File Services |
+| Ubuntu01 | Enterprise Linux       | osTicket, Future Wazuh          |
+| CLIENT01 | Enterprise Workstation | Domain Validation, GPO Testing  |
 
 ---
 
@@ -307,14 +317,17 @@ The Active Directory environment is organized using Organizational Units aligned
 
 Examples include:
 
-* Executive
-* HR
-* Finance
-* Engineering
-* IT
-* Sales
-* Marketing
-* Operations
+* Forest
+  ↓
+* Domain
+  ↓
+* Organizational Units
+  ↓
+* Securitiy Groups
+  ↓
+* Users
+  ↓
+* Department Resources
 
 Administrative delegation is performed using security groups following least-privilege principles.
 
@@ -344,6 +357,8 @@ Access is controlled using NTFS permissions and Active Directory security groups
 # Identity & Access Management
 
 Identity management is provided through Active Directory.
+
+Authentication is centralized through Active Directory Domain Services. Authorization is controlled through departmental security groups and NTFS permissions. Administrative delegation follows the principle of least privilege while Group Policy provides standardized workstation configuration across the enterprise.
 
 Security principles include:
 
@@ -375,17 +390,20 @@ Capabilities include:
 
 The enterprise security model includes:
 
-* Microsoft Defender
-* Windows Firewall
-* NTFS Permissions
-* Group Policy
-* Security Groups
-
-Future enhancements include:
-
-* Wazuh SIEM
-* Sysmon
-* Centralized Security Monitoring
+* Current Security Controls
+  * Microsoft Defender
+  * Windows Firewall
+  * NTFS Permissions
+  * Group Policy
+  * Security Groups
+  * Password Policy
+  * Account Lockout
+* Future Security Controls
+  * Wazuh SIEM
+  * Sysmon
+  * SOC Monitoring
+  * Incident Response
+  * Threat Detection
 
 ---
 
@@ -411,14 +429,21 @@ All enterprise documentation follows the Northwind Technologies Documentation St
 
 Documentation categories include:
 
+* Documentation Standards
+  ↓
 * Project Management
+  ↓
 * Enterprise Documentation
-* Sprint Documentation
+  ↓
+* Engineering Guides
+  ↓
 * SOP Library
-* Knowledge Base
+  ↓
 * Incident Reports
+  ↓
+* Knowledge Base
+  ↓
 * Ticket Walkthroughs
-* PowerShell Documentation
 
 ---
 
