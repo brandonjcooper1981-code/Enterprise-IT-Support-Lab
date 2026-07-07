@@ -100,13 +100,9 @@ Current Environment
 Future Expansion
 
 • Microsoft 365
-
 • Azure
-
 • PowerShell Automation
-
 • Cloud Identity
-
 • Enterprise Monitoring
 
 ## Featured Engineering Projects
