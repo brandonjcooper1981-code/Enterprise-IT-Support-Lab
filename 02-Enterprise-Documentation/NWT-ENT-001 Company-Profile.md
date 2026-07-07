@@ -13,7 +13,7 @@
 
 # NWT-ENT-001 Company Profile
 
-*Enterprise IT Support Lab*
+*Northwind Technologies – Enterprise IT Modernization Project*
 
 ---
 
@@ -21,7 +21,7 @@
 
 Northwind Technologies is a fictional mid-sized technology consulting and managed IT services company created to simulate the planning, deployment, administration, and operational support of a modern enterprise IT environment.
 
-The Enterprise IT Support Lab provides a realistic corporate environment for demonstrating systems administration, infrastructure deployment, enterprise documentation, help desk operations, automation, and cybersecurity best practices.
+The Northwind Technologies – Enterprise IT Modernization Project provides a realistic corporate environment for demonstrating systems administration, infrastructure deployment, enterprise documentation, help desk operations, automation, and cybersecurity best practices.
 
 Information Technology Services (ITS) is responsible for designing, implementing, securing, documenting, and maintaining the technology infrastructure that supports every business operation within Northwind Technologies.
 
