@@ -1,6 +1,6 @@
 # 👋 Welcome
 
-Welcome to my Enterprise IT Support Lab.
+Welcome to Northwind Technologies – Enterprise IT Modernization Project.
 
 This repository documents the design, deployment, administration, troubleshooting, automation, and security of a production-inspired enterprise IT environment.
 
