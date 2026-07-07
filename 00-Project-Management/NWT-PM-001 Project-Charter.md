@@ -1,4 +1,4 @@
-# Enterprise IT Support Lab
+# Northwind Technologies – Enterprise IT Modernization Project
 
 | Property | Value |
 |----------|-------|
@@ -15,7 +15,7 @@
 
 # Executive Summary
 
-The Enterprise IT Support Lab is a comprehensive enterprise infrastructure project designed to simulate the planning, deployment, administration, and operational support of a modern corporate IT environment.
+The Northwind Technologies – Enterprise IT Modernization Project is a comprehensive enterprise infrastructure project designed to simulate the planning, deployment, administration, and operational support of a modern corporate IT environment.
 
 Rather than demonstrating isolated technical exercises, this project documents the complete lifecycle of an enterprise network beginning with infrastructure planning and continuing through deployment, operational support, automation, security monitoring, cloud administration, and documentation.
 
