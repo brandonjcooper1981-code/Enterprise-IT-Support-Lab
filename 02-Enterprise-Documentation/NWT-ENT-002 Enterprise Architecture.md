@@ -13,7 +13,7 @@
 
 # NWT-ENT-002 Enterprise Architecture
 
-*Enterprise IT Support Lab*
+*Northwind Technologies – Enterprise IT Modernization Project*
 
 ---
 
