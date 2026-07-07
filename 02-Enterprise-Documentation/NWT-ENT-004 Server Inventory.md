@@ -24,10 +24,10 @@ The Server Inventory provides a centralized record of all enterprise servers dep
 
 ## Operational Status
 
-| Server | Status | Last Verified |
-|----------|-------------|--------------|
-| DC01 | Operational | Sprint 1 |
-| osTicket01 | Operational | Sprint 1 |
+| Server   | Status      | Last Verified |
+|----------|-------------|-------------- |
+| DC01     | Operational | Sprint 1      |
+| UBUNTU01 | Operational | Sprint 1      |
 
 ---
 
@@ -46,12 +46,12 @@ The Server Inventory provides a centralized record of all enterprise servers dep
 
 ## Virtual Machine Standards
 
-| Resource | Domain Controller | Linux Server |
-|-----------|------------------|--------------|
-| CPU | 2 vCPU | 2 vCPU |
-| Memory | 4 GB | 4 GB |
-| Disk | 80 GB | 80 GB |
-| Network | NAT + Host Only | NAT + Host Only |
+| Resource  | Domain Controller | Linux Server    |
+|-----------|-------------------|-----------------|
+| CPU       | 2 vCPU            | 2 vCPU          |
+| Memory    | 4 GB              | 4 GB            |
+| Disk      | 80 GB             | 80 GB           |
+| Network   | NAT + Host Only   | NAT + Host Only |
 
 ## DC01
 
@@ -70,23 +70,23 @@ The Server Inventory provides a centralized record of all enterprise servers dep
 
 ### General Information
 
-| Property         | Value               |
-| ---------------- | ------------------- |
-| Hostname         | DC01                |
-| Operating System | Windows Server 2025 |
-| Server Role      | Domain Controller   |
-| Platform         | Oracle VirtualBox   |
-| Status           | Operational         |
-| Environment      | Production Lab      |
+| Property         | Value                   |
+| ---------------- | ----------------------- |
+| Hostname         | DC01                    |
+| Operating System | Windows Server 2025     |
+| Server Role      | Domain Controller       |
+| Platform         | Oracle VirtualBox 7.x   |
+| Status           | Operational             |
+| Environment      | Production Lab          |
 
 ### Hardware
 
-| Resource | Allocation                          |
-| -------- | ----------------------------------- |
-| CPU      | 2 vCPU                              |
-| Memory   | 4 GB                                |
-| Disk     | 80 GB                               |
-| Network  | NAT + Host-Only                     |
+| Resource | Allocation                              |
+| -------- | --------------------------------------- |
+| CPU      | 2 vCPU                                  |
+| Memory   | 4 GB                                    |
+| Disk     | 80 GB                                   |
+| Network  | Adapter 1 (NAT) + Adpater 2 (Host-Only) |
 
 ### Network
 
@@ -100,8 +100,8 @@ The Server Inventory provides a centralized record of all enterprise servers dep
 ### Installed Roles
 
 - Active Directory Domain Services
-- DNS
-- DHCP
+- DNS Server
+- DHCP Server
 - File Services
 - Group Policy
 
@@ -115,6 +115,17 @@ The Server Inventory provides a centralized record of all enterprise servers dep
 - File Shares
 - Group Policy
 
+### Validation Status
+
+| Validation           | Status   |
+|----------------------|----------|
+| Operating System     | Verified |
+| Network Connectivity | Verified |
+| DNS Resolution       | Verified |
+| Authentication       | Verified |
+| Installed Services   | Verified |
+| Documentation        | Complete |
+
 ### Dependencies
 
 Depends On
@@ -122,7 +133,7 @@ Depends On
 - Host Network
 Supports
 - CLIENT01
-- osTicket01
+- UBUNTU01
 
 ---
 
@@ -144,30 +155,30 @@ Supports
 
 ### General Information
 
-| Property         | Value                    |
-| ---------------- | ------------------------ |
-| Hostname         | UBUNTU01                 |
-| Operating System | Ubuntu                   |
-| Server Role      | Linux Application Server |
-| Platform         | Oracle VirtualBox        |
-| Status           | Operational              |
-| Environment      | Production Lab           |
+| Property         | Value                         |
+| ---------------- | ----------------------------- |
+| Hostname         | UBUNTU01                      |
+| Operating System | Ubuntu Server 24.04 LTS       |
+| Server Role      | Enterprise Application Server |
+| Platform         | Oracle VirtualBox 7.x         |
+| Status           | Operational                   |
+| Environment      | Production Lab                |
 
 ### Hardware
 
-| Resource | Allocation                          |
-| -------- | ----------------------------------- |
-| CPU      | 2 vCPU                              |
-| Memory   | 4 GB                                |
-| Disk     | 80 GB                               |
-| Network  | NAT + Host-Only                     |
+| Resource | Allocation                              |
+| -------- | --------------------------------------- |
+| CPU      | 2 vCPU                                  |
+| Memory   | 4 GB                                    |
+| Disk     | 80 GB                                   |
+| Network  | Adapter 1 (NAT) + Adpater 2 (Host-Only) |
 
 ### Installed Services
 
-- Apache
-- PHP
-- MariaDB
-- osTicket
+- Apache 2.4
+- PHP 8.5
+- MariaDB 11
+- osTicket 1.18
 - SSH
 
 ### Enterprise Responsibilities
@@ -176,6 +187,17 @@ Supports
 - Ticket Management
 - Linux Services
 - Future Wazuh
+
+### Validation Status
+
+| Validation           | Status   |
+|----------------------|----------|
+| Operating System     | Verified |
+| Network Connectivity | Verified |
+| DNS Resolution       | Verified |
+| Authentication       | Verified |
+| Installed Services   | Verified |
+| Documentation        | Complete |
 
 ### Dependencies
 Depends On
