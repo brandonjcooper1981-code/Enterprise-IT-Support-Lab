@@ -15,11 +15,13 @@
 
 ---
 
-1. Purpose
+## Purpose
 
 This standard establishes the documentation requirements for engineering guides developed throughout the Northwind Technologies Enterprise IT Modernization Project. Its purpose is to ensure all technical documentation follows a consistent structure, communicates information clearly, and provides repeatable engineering procedures that support deployment, validation, troubleshooting, and long-term maintenance.
 
-2. Scope
+---
+
+## Scope
 
 This document applies to:
 
@@ -30,7 +32,9 @@ Configuration Guides
 Operational Guides
 Future Infrastructure Documentation
 
-3. Documentation Philosophy
+---
+
+## Documentation Philosophy
 
 Northwind Technologies engineering documentation is built upon the following principles:
 
@@ -46,7 +50,9 @@ Northwind Technologies engineering documentation is built upon the following pri
 
 • Create documentation that is repeatable, maintainable, and scalable.
 
-4. Engineering Guide Types
+---
+
+## Engineering Guide Types
     • Installation
       Purpose:
         Deploy new infrastructure
@@ -78,37 +84,28 @@ Northwind Technologies engineering documentation is built upon the following pri
         Microsoft 365
         Automation
 
-5. Standard Document Structure
+---
 
-Quick Reference
+## Standard Document Structure
 
-Purpose
+- Quick Reference
+- Purpose
+- Business Reason
+- Platform Strategy (optional)
+- Architecture Decision / Validation Strategy / Troubleshooting Philosophy
+- Prerequisites
+- Required Software & Tools
+- Implementation Procedure
+- Validation Criteria
+- Troubleshooting
+- Operational Perspective
+- Lessons Learned
+- Engineering Recommendation
+- Related Engineering Guides
 
-Business Reason
+---
 
-Platform Strategy (optional)
-
-Architecture Decision / Validation Strategy / Troubleshooting Philosophy
-
-Prerequisites
-
-Required Software & Tools
-
-Implementation Procedure
-
-Validation Criteria
-
-Troubleshooting
-
-Operational Perspective
-
-Lessons Learned
-
-Engineering Recommendation
-
-Related Engineering Guides
-
-6. Quick Reference Standard
+## Quick Reference Standard
 
   | Item | Value |
   |------|-------|
@@ -124,7 +121,9 @@ Related Engineering Guides
   | Scope | *(Installation / Validation / Troubleshooting / Operations)* |
   | Next Guide | |
 
-7. Writing Standards
+---
+
+## Writing Standards
 
   - Write from an engineering perspective.
   - Explain why, not just how.
@@ -134,7 +133,9 @@ Related Engineering Guides
   - Use consistent terminology throughout the repository.
   - Avoid unnecessary repetition.
 
-8. Procedure Standards
+---
+
+## Procedure Standards
 
 A procedure should answer:
 
@@ -143,7 +144,9 @@ A procedure should answer:
   - How is it validated?
   - What is the expected outcome?
 
-9.  Validation Standards
+---
+
+##  Validation Standards
 
 Every engineering guide must include:
 
@@ -151,7 +154,9 @@ Every engineering guide must include:
   - Expected Results
   - Operational Readiness
 
-10. Troubleshooting Standards
+---
+
+## Troubleshooting Standards
 
 Every troubleshooting section should include:
 
@@ -160,7 +165,9 @@ Every troubleshooting section should include:
   - Resolution
   - Prevention (when applicable)
 
-11. Lessons Learned Standards
+---
+
+## Lessons Learned Standards
 
 Lessons should focus on:
 
@@ -168,15 +175,21 @@ Lessons should focus on:
   - Standardization
   - Future deployments
 
-12. Engineering Recommendations
+---
+
+## Engineering Recommendations
 
 Standardize configurations to reduce troubleshooting time.
 
-13. Related Engineering Guides
+---
+
+## Related Engineering Guides
 
 Every guide should reference its dependencies and successors.
 
-14. Document Naming Standards
+---
+
+## Document Naming Standards
 
   - NWT-STD-003
   - NWT-SPR-101
@@ -185,13 +198,17 @@ Every guide should reference its dependencies and successors.
   - NWT-ENT-006
   - NWT-PM-004
 
-15. Version Control
+---
+
+## Version Control
 
   - Major Version → Structural changes
   - Minor Version → New content
   - Patch Version → Formatting, spelling, corrections
 
-16. Status Values
+---
+
+## Status Values
 
 | Status       | Description                              |
 | ------------ | ---------------------------------------- |
@@ -202,7 +219,9 @@ Every guide should reference its dependencies and successors.
 | Offline      | Powered down                             |
 | Retired      | Removed from service                     |
 
-17. Environment Values
+---
+
+## Environment Values
 
 | Environment    | Purpose                                 |
 | -------------- | --------------------------------------- |
@@ -211,6 +230,8 @@ Every guide should reference its dependencies and successors.
 | Test           | Functional testing                      |
 | Staging        | Pre-production validation               |
 
-18. Future Revisions
+---
+
+## Future Revisions
 
 This standard is expected to evolve as the Northwind Enterprise IT Modernization Project grows and new document types are introduced.
