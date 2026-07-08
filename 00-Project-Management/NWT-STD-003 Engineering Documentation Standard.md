@@ -1,5 +1,19 @@
-NWT-STD-003
-Northwind Engineering Documentation Standard
+# NWT-STD-003 Northwind Engineering Documentation Standard
+
+| Property | Value |
+|----------|-------|
+| **Company** | Northwind Technologies |
+| **Department** | Information Technology Services (ITS) |
+| **Document ID** | NWT-STD-003 |
+| **Document Type** | Engineering Documnentation Standard |
+| **Classification** | Internal Use |
+| **Version** | 1.0 |
+| **Status** | Approved |
+| **Author** | Brandon J. Cooper |
+| **Document Owner** | Information Technology Services (ITS) |
+| **Last Updated** | June 2026 |
+
+---
 
 1. Purpose
 
