@@ -1,16 +1,17 @@
 # Northwind Technologies
 
-# Enterprise Documentation Standard
-
-**Document ID:** NWT-STD-001
-
-**Version:** 1.0
-
-**Status:** Approved
-
-**Owner:** Information Technology Department
-
-**Author:** Brandon J. Cooper
+| Property | Value |
+|----------|-------|
+| **Company** | Northwind Technologies |
+| **Department** | Information Technology Services (ITS) |
+| **Document ID** | NWT-STD-001 |
+| **Document Type** | Enterprise Documentation Guide |
+| **Classification** | Internal Use |
+| **Version** | 1.0 |
+| **Status** | Approved |
+| **Author** | Brandon J. Cooper |
+| **Document Owner** | Information Technology Services (ITS) |
+| **Last Updated** | June 2026 |
 
 ---
 
