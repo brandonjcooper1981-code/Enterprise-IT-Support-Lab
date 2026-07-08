@@ -1,3 +1,5 @@
+# NWT-STD-002 Markdown & Document Style Guide
+
 | Property | Value |
 |----------|-------|
 | **Company** | Northwind Technologies |
@@ -11,19 +13,19 @@
 | **Document Owner** | Information Technology Services (ITS) |
 | **Last Updated** | June 2026 |
 
-# NWT-STD-002 Markdown & Document Style Guide
+---
 
-*Enterprise IT Support Lab*
+*Northwind Technologies – Enterprise IT Modernization Project*
 
 ---
 
 # Executive Summary
 
-This standard establishes the formatting, organization, and presentation requirements for all documentation created within the Northwind Technologies Enterprise IT Support Lab.
+This standard establishes the formatting, organization, and presentation requirements for all documentation created within the Northwind Technologies – Enterprise IT Modernization Project.
 
 The objective of this standard is to ensure all documentation is professional, consistent, maintainable, and easily navigated by technical staff, management, and project stakeholders.
 
-This document applies to every Markdown document maintained within the Enterprise IT Support Lab unless otherwise noted.
+This document applies to every Markdown document maintained within the Northwind Technologies – Enterprise IT Modernization Project unless otherwise noted.
 
 ---
 
