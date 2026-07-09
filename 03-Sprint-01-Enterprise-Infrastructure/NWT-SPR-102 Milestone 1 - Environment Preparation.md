@@ -1,3 +1,5 @@
+# NWT-SPR-102 Milestone 1 – Environment Preparation
+
 | Property | Value |
 |----------|-------|
 | **Company** | Northwind Technologies |
@@ -10,10 +12,6 @@
 | **Author** | Brandon J. Cooper |
 | **Document Owner** | Information Technology Services (ITS) |
 | **Last Updated** | June 2026 |
-
-# NWT-SPR-102 Milestone 1 – Environment Preparation
-
-*Enterprise IT Modernization Project*
 
 ---
 
