@@ -171,6 +171,21 @@ Requirements:
 
 ---
 
+### DNS Forwarders
+
+Configured Public DNS:
+
+- 8.8.8.8 (Google)
+- 1.1.1.1 (Cloudflare)
+
+Requirements:
+
+- Forwarders must be validated monthly.
+- Only approved public DNS providers may be used.
+- DNS clients must not use public DNS directly.
+
+---
+
 ## DNS Troubleshooting Playbooks
 
 ### Cannot Resolve Hostname
@@ -275,6 +290,22 @@ ipconfig /flushdns
 ipconfig /registerdns
 ```
 
+## Diagnostic Commands
+
+```cmd
+nslookup northwind.local
+
+nslookup DC01
+
+ping DC01
+
+ipconfig /all
+
+ipconfig /flushdns
+
+ipconfig /registerdns
+```
+
 ---
 
 ## Monitoring & Health Checks
@@ -288,6 +319,13 @@ Verify:
 - Replication
 - Name resolution
 - Client connectivity
+
+DNS Event Logs:
+
+Applications and Services Logs
+    → Microsoft
+        → Windows
+            → DNS-Server
 
 ---
 
