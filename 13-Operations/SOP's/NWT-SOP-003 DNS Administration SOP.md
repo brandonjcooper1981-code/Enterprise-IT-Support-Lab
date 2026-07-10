@@ -191,37 +191,14 @@ Requirements:
 ### Cannot Resolve Hostname
 
 Severity: Medium
-
 Estimated Resolution: 15–30 minutes
-
 Escalation: Infrastructure Team
-
 1. Verify network connectivity.
-2. Run:
-
-    ```cmd
-    ping DC01
-    ```
-
-3. Run:
-
-    ```cmd
-    ipconfig /all
-    ```
-
+2. Run: ```cmd ping DC01```
+3. Run: ```cmd ipconfig /all```
 4. Verify DNS server settings.
-5. Run:
-
-    ```cmd
-    nslookup hostname
-    ```
-
-6. Run:
-
-    ```cmd
-    ipconfig /flushdns
-    ```
-
+5. Run: ```cmd nslookup hostname```
+6. Run: ```cmd ipconfig /flushdns```
 7. Restart DNS Client service.
 8. Verify resolution.
 9. Document ticket.
@@ -232,11 +209,8 @@ Escalation: Infrastructure Team
 ### DNS Server Unreachable
 
 Severity: High
-
 Estimated Resolution: 30–60 minutes
-
 Escalation: Infrastructure Team
-
 1. Verify DC01 is online.
 2. Confirm DNS service status.
 3. Test connectivity.
@@ -252,21 +226,13 @@ Escalation: Infrastructure Team
 ### Missing DNS Record
 
 Severity: Medium
-
 Estimated Resolution: 15–30 minutes
-
 Escalation: Infrastructure Team
-
 1. Open DNS Manager.
 2. Verify record existence.
 3. Check replication status.
 4. Recreate record if authorized.
-5. Run:
-
-    ```powershell
-    ipconfig /registerdns
-    ```
-
+5. Run: ```powershell ipconfig /registerdns```
 6. Verify resolution.
 7. Document ticket.
 
