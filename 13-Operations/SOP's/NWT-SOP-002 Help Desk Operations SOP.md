@@ -240,165 +240,165 @@ Every ticket shall contain:
 Severity: Low
 Estimated Resolution: 15–30 minutes
 Escalation: Infrastructure Team
-  1. Verify username.
-  2. Verify password.
-  3. Check account lockout.
-  4. Verify AD account enabled.
-  5. Reset password if required.
-  6. Unlock account.
-  7. Verify login.
-  8. Document resolution the ticket.
-  9. Close the request.
+1. Verify username.
+2. Verify password.
+3. Check account lockout.
+4. Verify AD account enabled.
+5. Reset password if required.
+6. Unlock account.
+7. Verify login.
+8. Document resolution the ticket.
+9. Close the request.
 
 ### Account Locked
 
 Severity: Low
 Estimated Resolution: 15–30 minutes
 Escalation: Infrastructure Team
-  1. Verify user identity using approved verification methods.
-  2. Open Active Directory Users and Computers.
-  3. Locate the user account.
-  4. Unlock the account.
-  5. Verify successful login with the user.
-  6. Document the ticket.
-  7. Close the request.
+1. Verify user identity using approved verification methods.
+2. Open Active Directory Users and Computers.
+3. Locate the user account.
+4. Unlock the account.
+5. Verify successful login with the user.
+6. Document the ticket.
+7. Close the request.
 
 ### Password Reset
 
 Severity: Low
 Estimated Resolution: 15–30 minutes
 Escalation: Infrastructure Team
-  1. Verify user identity using approved verification methods.
-  2. Open Active Directory Users and Computers.
-  3. Locate the user account.
-  4. Reset the password.
-  5. Enable "User must change password at next logon."
-  6. Unlock the account if required.
-  7. Verify successful login with the user.
-  8. Document the ticket.
-  9. Close the request.
+1. Verify user identity using approved verification methods.
+2. Open Active Directory Users and Computers.
+3. Locate the user account.
+4. Reset the password.
+5. Enable "User must change password at next logon."
+6. Unlock the account if required.
+7. Verify successful login with the user.
+8. Document the ticket.
+9. Close the request.
 
 ### No Internet Connection
 
 Severity: Low
 Estimated Resolution: 15–30 minutes
 Escalation: Infrastructure Team
-  1. Verify there is no internet connection.
-  2. Confirm wheter the issues is localized to a single workstation or a wider outage.
-  3. Ensure the Ethernet cable is connected securely or the Wi-Fi is enabled.
-  4. Try connecting with another device on the same network.
-  5. Reboot the workstation.
-  6. Disconnected the Wi-Fi and then re-connect it.
-  7. Unplug the modem and router, wait 30 seconds, replug in starting with the modem then router.
-  8. Open Command Prompt.
-  9. Run ipconfig /release.
-  10. run ipconfig /renew.
-  11. Ping the default gateway.
-  12. Ping 8.8.8.8.
-  13. Verify internet access.
-  14. Document the ticket.
-  15. Close the request.
+1. Verify there is no internet connection.
+2. Confirm wheter the issues is localized to a single workstation or a wider outage.
+3. Ensure the Ethernet cable is connected securely or the Wi-Fi is enabled.
+4. Try connecting with another device on the same network.
+5. Reboot the workstation.
+6. Disconnected the Wi-Fi and then re-connect it.
+7. Unplug the modem and router, wait 30 seconds, replug in starting with the modem then router.
+8. Open Command Prompt.
+9. Run ```cmd ipconfig /release```.
+10. run ```cmd ipconfig /renew```.
+11. Ping the default gateway.
+12. Ping 8.8.8.8.
+13. Verify internet access.
+14. Document the ticket.
+15. Close the request.
 
 ### Cannot Access Shared Folder
 
 Severity: Medium
 Estimated Resolution: 15–30 minutes
 Escalation: Infrastructure Team
-  1. Verify network connectivity.
-  2. Verify user has autherization for folders.
-  3. Open Active Directory Users and Computers.
-  4. Verify user is in the correct OU.
-  5. Verify group policy is active.
-  6. Verify user is added to the correct security groups.
-  7. Re-check acces to shared folder.
-  8. Verify user can access shared folders.
-  9. Document the ticket.
-  10. Close the request.
+1. Verify network connectivity.
+2. Verify user has autherization for folders.
+3. Open Active Directory Users and Computers.
+4. Verify user is in the correct OU.
+5. Verify group policy is active.
+6. Verify user is added to the correct security groups.
+7. Re-check acces to shared folder.
+8. Verify user can access shared folders.
+9. Document the ticket.
+10. Close the request.
 
 ### Mapped Drive Missing
 
 Severity: Medium
 Estimated Resolution: 15–30 minutes
 Escalation: Infrastructure Team
-  1. Verify mapped drive is not present.
-  2. Verify network connection.
-  3. Press Win+R, then type the UNC path directly.
-  4. Restart workstation.
-  5. Verify user has access to mapped drive.
-  6. Document the ticket.
-  7. Close the request.
+1. Verify mapped drive is not present.
+2. Verify network connection.
+3. Press Win+R, then type the UNC path directly.
+4. Restart workstation.
+5. Verify user has access to mapped drive.
+6. Document the ticket.
+7. Close the request.
 
 ### Printer Offline
 
 Severity: Low
 Estimated Resolution: 15–30 minutes
 Escalation: Infrastructure Team
-  1. Verify printer is offline.
-  2. Turn the printer off and unpluig it for 60 seconds.
-  3. Ensure all connections are present and secure.
-  4. Check the printer display for errors.
-  5. Confirm the print and the user's workstatoin are connected to the exact same Wi-Fi network.
-  6. Print a configuration page from the printer to verify it has an active IP address.
-  7. Cancel all pending print jobs.
-  8. Verify user can access printer.
-  9. Document the ticket.
-  10. Close the request.
+1. Verify printer is offline.
+2. Turn the printer off and unpluig it for 60 seconds.
+3. Ensure all connections are present and secure.
+4. Check the printer display for errors.
+5. Confirm the print and the user's workstatoin are connected to the exact same Wi-Fi network.
+6. Print a configuration page from the printer to verify it has an active IP address.
+7. Cancel all pending print jobs.
+8. Verify user can access printer.
+9. Document the ticket.
+10. Close the request.
 
 ### Slow Computer
 
 Severity: Single user: Low,  Mutliple Users: High
 Estimated Resolution: 15–30 minutes
 Escalation: Infrastructure Team
-  1. Verify if the entire system runs slow or just an application.
-  2. Restart the workstation.
-  3. Open Task Manager.
-  4. Sort by CPU, MEmory and Disk to identify runaway process.
-  5. Disable unnecessary background application apps launching at boot.
-  6. Open Disk Cleanup to remove temp files.
-  7. Identify and remove heavy or malicious browser extenstions.
-  8. Run scan using organization's approved endpoint protection software.
-  9. Verify the OS and critical applicaitons are fully updated.
-  10. Verify user's workstations is running correctly.
-  11. Document the ticket.
-  12. Close the request.
+1. Verify if the entire system runs slow or just an application.
+2. Restart the workstation.
+3. Open Task Manager.
+4. Sort by CPU, MEmory and Disk to identify runaway process.
+5. Disable unnecessary background application apps launching at boot.
+6. Open Disk Cleanup to remove temp files.
+7. Identify and remove heavy or malicious browser extenstions.
+8. Run scan using organization's approved endpoint protection software.
+9. Verify the OS and critical applicaitons are fully updated.
+10. Verify user's workstations is running correctly.
+11. Document the ticket.
+12. Close the request.
 
 ### Group Policy Not Applying
 
 Severity: High
 Estimated Resolution: 15–30 minutes
 Escalation: Infrastructure Team
-   1. Verify user identity using approved verification methods.
-   2. Verify network connectivity.
-   3. Open Applications and Services Logs -> Microsoft -> Windows -> Group Policy -> Operational.
-   4. Run gpresults /h gpresults.html.
-   5. Review Wazuh alerts (if configured).
-   6. Verify workstation and user's target resides in the Organizational Unit (OU).
-   7. Verify the target object is not denied read/apply permissions are not disabled or unlinked.
-   8. Verify successful acces to the user's target.
-   9. Document the ticket.
-   10. Close the request.
+1. Verify user identity using approved verification methods.
+2. Verify network connectivity.
+3. Open Applications and Services Logs -> Microsoft -> Windows -> Group Policy -> Operational.
+4. Run ```cmd gpresults /h gpresults.html```.
+5. Review Wazuh alerts (if configured).
+6. Verify workstation and user's target resides in the Organizational Unit (OU).
+7. Verify the target object is not denied read/apply permissions are not disabled or unlinked.
+8. Verify successful acces to the user's target.
+9. Document the ticket.
+10. Close the request.
 
 ### DNS Resolution Failure
 
 Severity: High
 Estimated Resolution: 15–30 minutes
 Escalation: Infrastructure Team
-   1. Verify basic connectivity.
-   2. Verify if single device or multiple devices affected.
-   3. Verify if user can reach some sites but not others.
-   4. Open PowerShell.
-   5. Ping 8.8.8.8.
-   6. Run ipconfig /flushdns.
-   7. Run nslookup example.com for local.
-   8. Run nslookup example.com 8.8.8.8 for public.
-   9. Run ipconfig /all.
-   10. Run ipconfig /release.
-   11. Run ipconfig /renew.
-   12. Restart network deviecs as well as the workstation.
-   13. Update drivers.
-   14. Verify DNS resolution is successful.
-   15. Document the ticket.
-   16. Close the request.
+1. Verify basic connectivity.
+2. Verify if single device or multiple devices affected.
+3. Verify if user can reach some sites but not others.
+4. Open PowerShell.
+5. Ping 8.8.8.8.
+6. Run ```cdm ipconfig /flushdns```.
+7. Run ```cmd nslookup example.com``` for local.
+8. Run ```cmd nslookup example.com 8.8.8.8``` for public.
+9. Run ```cmd ipconfig /all```.
+10. Run ```cmd ipconfig /release```.
+11. Run ```cmd ipconfig /renew```.
+12. Restart network deviecs as well as the workstation.
+13. Update drivers.
+14. Verify DNS resolution is successful.
+15. Document the ticket.
+16. Close the request.
 
 ---
 
