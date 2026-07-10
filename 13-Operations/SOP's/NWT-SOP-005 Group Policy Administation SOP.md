@@ -241,7 +241,7 @@ Common commands:
 ```powershell
 Get-GPO -All
 
-Get-GPResultantSetOfPolicy
+Get-GPResultantSetOfPolicy -ReportType Html -Path C:\gpresult.html
 
 gpupdate /force
 
@@ -298,7 +298,6 @@ Backup-GPO -All
 Severity: High
 Estimated Resolution: 15–30 minutes
 Escalation: Infrastructure Team
-
 1. Verify workstation network connectivity.
 2. Verify workstation is joined to the domain.
 3. Run: ```cmd gpupdate /force```
@@ -315,7 +314,6 @@ Escalation: Infrastructure Team
 Severity: High
 Estimated Resolution: 15-30 minutes
 Escalation: Infrastructure Team
-
 1. Verify worksations network connectivity.
 2. Run ```cmd nslookup```.
 3. Ping NORTHWIND.LOCAL
@@ -325,7 +323,7 @@ Escalation: Infrastructure Team
 7. Delete or rename Machine folder and registry.pol file.
 8. Restart workstation
 9. Run ```cmd gpresult /h greport.html```.
-10. Open Applications and Servie Logs -> Microsoft -> Windows -> GroupPolicy -> Operational.
+10. Open Applications and Service Logs -> Microsoft -> Windows -> GroupPolicy -> Operational.
 11. Review Error Events.
 12. Document ticket.
 13. Close request.
@@ -335,10 +333,185 @@ Escalation: Infrastructure Team
 Severity: High
 Estimated Resolution: 15-30 minutes
 Escalation: Infrastructure Team
+1. Verify worksations network connectivity.
+2. Verify user has Read and Execute NTFS permissions as well as Read share permissions Group Policy Scripts Processing.
+3. Copy script locally and run it manually.
+4. Run ```cmd rsop.msc``` on affected machine.
+5. Run ```cmd gpupdate /force```
+6. Open Event Viewer
+7. Search eventvwr.msc on the user's local workstation.
+8. Open Applications and Service Logs -> Microsoft -> Windows -> GroupPolicy -> Operational.
+9. Filter b Event ID.
+10. Verify Login Script successful.
+11. Document Ticket.
+12. Close request.
 
-1.
+### Mapped Drive Missing
 
+Severity: Medium
+Estimated Resolution: 15–30 minutes
+Escalation: Infrastructure Team
+1. Run ```cmd net use```
+2. Verify mapped drive is not present.
+3. Verify network connection.
+4. Press Win+R, then type the UNC path directly.
+5. Restart workstation.
+6. Verify user has access to mapped drive.
+7. Document the ticket.
+8. Close the request.
 
+### Printer Deployment Failure
+
+Severity: Low
+Estimated Resolution: 15-30 minutes
+Escalation: Infrastructure Team
+1. Verify client machine is online, on the correct network and printer server is reachable.
+2. Ensure Print Spooler service is running.
+3. Run ```cmd gpresult /r``` ```cmd gpupdate /force```
+4. Modify Group Policy to enable package-awre V3 drivers.
+5. Set Point and Print Restrications to bypass the driver warning/elevation prompt.
+6. Run ```cmd printui.exe /s```
+7. Remove problematic driver.
+8. Ensure GPO is linked to the correct Organizational Unit (OU).
+9. Run Win+R, enter \\PrintServerName
+10. Locate and connect the printer.
+11. Allow Windows to download drivers automatically.
+12. Verify printer deployment successful.
+13. Document ticket.
+14. Close request.
+
+### Password Policy Not Enforcing
+
+Severity: Medium
+Estimated Resolution: 15-30 minutes
+Escalation: Infrastructure Team
+1. Verify user identity using approved verification methods.
+2. Determine if the user is changing thier password locally ot through an identitiy provider.
+3. Check if thier user account is subject to a Fine-Grained Password Policy (PSO) overriding the Default Domain Policy.
+4. Run ```cmd gpupdate /force```
+5. Lock and Unlock workstation.
+6. If policy remians unenforced, Tier 2 admins should verify GPO inheritance on the Domain Controllers OU.
+7. Esure Default Domain Policy has not been blocked by OUs placed higher in the tree.
+8. Document ticket.
+9. Close request.
+
+### Slow Logon
+
+Severity: High
+Estimated Resolution: 15-30 minutes
+Escalation: Infrastructure Team
+1. Verify user identity using approved verification methods.
+2. Execute full restart to clear cache, RAM and pending updates.
+3. Unplug Ethernet cable or disconnect from Wi-Fi, then reconnect to ensure standard Domain Controller reachability.
+4. Log in with local administrator account or a secondary doamin account.
+5. Apply the group policy to "Show highly detailed status messages".
+6. Open Event Viewer.
+7. Open Applications and Service Logs -> Microsoft -> Windows -> GroupPolicy -> Operational.
+8. Filter for Event Ids 8000-8004.
+9. Run ```cmd taskmgr```.
+10. Clear profile directory of cached files, temporary data or uneeded large folders.
+11. Escalate if Group Policy processing is the primary bottleneck.
+12. Document ticket
+13. Close request.
+
+### Folder Redirection Failure
+
+Severity: Medium
+Estimated Resolution: 15-30 minutes
+Escalation: Infrastructure Team
+1. Verify user identity using approved verification methods.
+2. Run ```cmd gpupdate /force```
+3. Run ```cmd gpresult /r```
+4. Run Win+R, open \\ServerName\ShareName.
+5. Check Share and NTFS Permissions.
+6. Open Event Viewer
+7. Open Applications and Service Logs -> Microsoft -> Windows -> GroupPolicy -> Operational.
+8. Search for Event ID 502 or Event ID 1000.
+9. Confirm GPO settings.
+10. Ensure "Grant the user exclusive rights to the folder name" is unchecked if the files fail to sync.
+11. Document ticket.
+12. Close request.
+
+---
+
+## Monitoring & Health Checks
+
+Verify:
+
+- Group Policy Management Console (GPMC) health
+- SYSVOL replication
+- Policy processing times
+- Event Viewer logs
+- Security filtering
+- OU inheritance
+- WMI filters
+- Login scripts
+- Folder redirection
+- Drive mappings
+- Printer deployment
+
+Recommended checks:
+
+- Run: ```cmd gpresult /r```
+- Review: Applications and Services Logs -> Microsoft -> Windows -> GroupPolicy -> Operational
+- Verify SYSVOL replication: ```powershell repadmin /replsummary```
+
+---
+
+## Group Policy Workflow
+
+Request Received
+↓
+Review Requirement
+↓
+Determine Scope
+↓
+Create or Modify GPO
+↓
+Apply Security Filtering
+↓
+Link to OU
+↓
+Test in Validation Environment
+↓
+Run gpupdate /force
+↓
+Verify Results
+↓
+Document Changes
+↓
+Close Request
+
+---
+
+## Backup Requirements
+
+Before modifying Group Policy:
+
+- Verify snapshot exists.
+- Export existing GPOs.
+- Document rollback procedures.
+- Test policy changes in a lab environment.
+- Obtain change approval.
+
+Backup commands: ```powershell Backup-GPO -All -Path C:\GPOBackups Get-GPO -All```
+
+Restore commands: ```powershell Restore-GPO```
+
+---
+
+## Future Improvements
+
+- Microsoft Intune integration
+- Microsoft Sentinel integration
+- Wazuh monitoring
+- WMI filtering
+- Loopback processing
+- Advanced auditing
+- BitLocker management
+- Windows Update policies
+- Conditional access policies
+- Azure Active Directory integration
 
 ---
 
