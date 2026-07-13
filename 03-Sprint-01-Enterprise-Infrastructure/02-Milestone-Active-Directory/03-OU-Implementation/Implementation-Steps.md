@@ -6,22 +6,37 @@ Create the Active Directory Organizational Unit structure for Northwind Technolo
 
 ---
 
+## Environment Note
+
+> **Note**
+>
+> The current implementation environment uses the `lab.local`
+> Active Directory domain. References to `northwind.local`
+> throughout the Northwind Technologies documentation represent
+> the planned enterprise naming standard and future production
+> environment.
+
 ## Procedure
 
 1. Open Active Directory Users and Computers.
-2. Right-click the domain.
-3. Select: ```text New → Organizational Unit```
-4. Create:
-   - Users
-   - Groups
-   - Computers
+2. Right-click the domain root (`lab.local`).
+3. Select: `New > Organizational Unit`
+4. Create infrastructure OUs:
+   - Engineering
+   - Executive
+   - Finance
+   - HR
+   - IT
+   - Marketing
+   - Operations
+   - Sales
    - Servers
    - Workstations
-   - Departments
-5. Create departmental OUs:
-   - Human Resources
-   - Finance
-   - Information Technology
+   - HelpDesk-Lab
+5. Verify the Organizational Units appear under the domain.
+6. Review OU permissions and inheritance settings.
+7. Document the OU structure in: `02-OU-Design/`
+8. Validate Group Policy targeting.
 
 ---
 
@@ -30,6 +45,24 @@ Create the Active Directory Organizational Unit structure for Northwind Technolo
 - OUs appear in Active Directory.
 - Objects can be placed in the correct locations.
 - Group Policy can be linked successfully.
+
+---
+
+## Implementation Results
+
+| OU | Status |
+|-----|-----|
+| Engineering | Complete |
+| Executive | Complete |
+| Finance | Complete |
+| HR | Complete |
+| IT | Complete |
+| Marketing | Complete |
+| Operations | Complete |
+| Sales | Complete |
+| Servers | Complete |
+| Workstations | Complete |
+| HelpDesk-Lab | Complete |
 
 ---
 
