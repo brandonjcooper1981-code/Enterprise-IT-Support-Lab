@@ -1,13 +1,13 @@
-# NWT-SPR-102 Sprint 2 Overview – Active Directory Infrastructure
+# NWT-MLS-002 Milestone 2 Overview – Active Directory Infrastructure
 
 | Property | Value |
 |----------|----------|
 | Company | Northwind Technologies |
 | Department | Information Technology Services (ITS) |
-| Sprint ID | NWT-SPR-102 |
-| Sprint Name | Active Directory Infrastructure |
+| Milestone ID | NWT-MLS-002 |
+| Milestone Name | Active Directory Infrastructure |
 | Status | In Progress |
-| Sprint Lead | Brandon J. Cooper |
+| Milestone Lead | Brandon J. Cooper |
 | Executive Sponsor | Michael Wilson, Chief Information Officer (CIO) |
 | Start Date | July 2026 |
 
@@ -33,7 +33,7 @@ The objective is to build a scalable and maintainable directory services environ
 
 ---
 
-## Sprint Scope
+## Milestone Scope
 
 ### Included
 
@@ -75,8 +75,7 @@ The objective is to build a scalable and maintainable directory services environ
 
 ## Success Criteria
 
-Sprint 2 will be considered complete when:
-
+Milestone 2 will be considered complete when:
 - Users can authenticate successfully.
 - Domain-joined computers receive Group Policy.
 - DNS resolves internal resources.

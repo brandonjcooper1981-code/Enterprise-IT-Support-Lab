@@ -76,7 +76,6 @@ This runbook provides the procedures required to diagnose and resolve user accou
 ## Escalation Criteria
 
 Escalate if:
-
 - Lockout reoccurs.
 - Domain controller errors exist.
 - Multiple users are affected.
