@@ -34,7 +34,7 @@ The work completed in this milestone provides the foundation for enterprise mana
 
 ## Documentation
 
-- `00-Documentation/Milestone 2 Overview.md`
+- `00-Documentation/Milestone-02-Overview.md`
 - `00-Documentation/OU-Design.md`
 - `00-Documentation/Validation-Checklist.md`
 
