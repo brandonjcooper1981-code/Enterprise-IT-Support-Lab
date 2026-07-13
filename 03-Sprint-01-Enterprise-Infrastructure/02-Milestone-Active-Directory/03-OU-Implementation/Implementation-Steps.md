@@ -19,7 +19,7 @@ Create the Active Directory Organizational Unit structure for Northwind Technolo
    - Workstations
    - Departments
 5. Create departmental OUs:
-    - Human Resources
+   - Human Resources
    - Finance
    - Information Technology
 
