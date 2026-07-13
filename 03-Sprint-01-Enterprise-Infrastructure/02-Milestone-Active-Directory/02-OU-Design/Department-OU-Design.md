@@ -18,6 +18,18 @@ Departmental OUs provide administrative separation, targeted Group Policy deploy
 
 ---
 
+## Environment Note
+
+> **Note**
+>
+> The current implementation environment uses the `lab.local`
+> Active Directory domain. References to `northwind.local`
+> throughout the Northwind Technologies documentation represent
+> the planned enterprise naming standard and future production
+> environment.
+
+---
+
 ## Human Resources OU
 
 ### Purpose
