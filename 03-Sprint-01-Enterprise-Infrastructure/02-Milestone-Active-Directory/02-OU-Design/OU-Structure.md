@@ -32,31 +32,42 @@ The OU hierarchy provides centralized administration, delegated management, Grou
 ## OU Hierarchy
 
 ```text
-northwind.local
+lab.local
 │
-├── Users
-├── Groups
-├── Computers
+├── Engineering
+├── Executive
+├── Finance
+├── HelpDesk-Lab
+├── HR
+├── IT
+├── Marketing
+├── Operations
+├── Sales
 ├── Servers
-├── Workstations
-└── Departments
-    ├── Human Resources
-    ├── Finance
-    └── Information Technology
+└── Workstations
 ```
 
+> Note:
+>
+> The current implementation uses the `lab.local` domain for training and validation purposes. Future enterprise deployments may use a production naming standard aligned with Northwind Technologies.
+>
 ---
 
 ## Administrative Model
 
 | OU | Purpose |
 |---|---|
-| Users | Stores user accounts |
-| Groups | Stores security groups |
-| Computers | Stores computer objects |
-| Servers | Stores server objects |
-| Workstations | Stores client systems |
-| Departments | Department-specific administration |
+| Engineering | Engineering users and resources |
+| Executive | Executive leadership accounts |
+| Finance | Financial systems and users |
+| HelpDesk-Lab | Training and testing environment |
+| HR | Human Resources staff and policies |
+| IT | IT administration and support |
+| Marketing | Marketing department resources |
+| Operations | Operational staff and systems |
+| Sales | Sales users and applications |
+| Servers | Server objects |
+| Workstations | Client computers |
 
 ---
 
