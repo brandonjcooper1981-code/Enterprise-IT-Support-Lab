@@ -1,4 +1,4 @@
-# Department Organizational Units
+# Departmental OU Design
 
 | Property | Value |
 |----------|----------|
@@ -58,11 +58,29 @@ The Information Technology OU contains administrative accounts, support workstat
 
 ### Planned Resources
 
-- Administrative accounts
-- IT security groups
-- Management workstations
-- Infrastructure tools
-- IT-specific Group Policy Objects
+| Resource | Status |
+|----------|----------|
+| User accounts | Planned |
+| Security groups | Planned |
+| Department printers | Future |
+| Shared folders | Planned |
+| Department GPOs | Planned |
+
+---
+
+## Current Implementation Status
+
+| OU | Implemented |
+|-----|-----|
+| Engineering | Yes |
+| Executive | Yes |
+| Finance | Yes |
+| HR | Yes |
+| IT | Yes |
+| Marketing | Yes |
+| Operations | Yes |
+| Sales | Yes |
+| HelpDesk-Lab | Yes |
 
 ---
 
@@ -76,15 +94,18 @@ The Information Technology OU contains administrative accounts, support workstat
 
 ---
 
-## Future Expansion
+## Current Departmental Organizational Units
 
-Additional OUs may be created for:
-
+The following departmental OUs are currently deployed:
+- Engineering
+- Executive
+- Finance
+- HR
+- IT
+- Marketing
 - Operations
-- Legal
 - Sales
-- Executive Leadership
-- Security Operations Center (SOC)
+- HelpDesk-Lab
 
 ---
 
