@@ -308,17 +308,17 @@ Following successful implementation, validation, and documentation, Milestone 1 
 
 # Related Readiness
 
-NWT-SPR-101
+NWT-SPR-101 - Enterprise Infrastructure Deployment
 
-NWT-ENT-001
+NWT-ENT-001 - Company Profile
 
-NWT-ENT-002
+NWT-ENT-002 - Enterprise Architesture
 
-NWT-PM-001
+NWT-PM-001 - Project Charter
 
-NWT-STD-001
+NWT-STD-001 - Enterprise Documentation Standard
 
-NWT-STD-002
+NWT-STD-002 - Markdown & Document Style Guide
 
 ---
 
