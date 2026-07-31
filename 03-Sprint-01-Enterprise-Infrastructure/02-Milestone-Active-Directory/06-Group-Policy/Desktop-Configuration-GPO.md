@@ -4,11 +4,13 @@
 
 ## Property Table
 
-Company            Northwind Technologies
-Department         Information Technology Services (ITS)
-Document Type      Policy Configuration Document
-Status             Active
-Version            1.0
+| Property | Value |
+|----------|--------|
+| Company | Northwind Technologies |
+| Department | Information Technology Services (ITS) |
+| Document Type | Policy Configuration Document |
+| Status | Active |
+| Version | 1.0 |
 
 ---
 
@@ -50,7 +52,7 @@ The current implementation environment uses the `lab.local` Active Directory dom
 
 | Setting | Standard |
 |---------|----------|
-| Desktop Background | Company Wallpaper |
+| Desktop Background | Northwind Standard Wallpaper |
 | Start Menu Layout | Standard |
 | Taskbar | Standard |
 | Recycle Bin | Visible |
@@ -105,10 +107,12 @@ Administrative Templates Included:
 ---
 
 ## Security Settings
-- Prevent unauthorized changes
-- Standardize desktop
-- Reduce malware exposure
-- Least privilege
+
+- Prevent unauthorized desktop modifications.
+- Standardize workstation configuration.
+- Reduce malware exposure.
+- Enforce least-privilege principles.
+- Support organizational security compliance.
 
 ---
 
@@ -145,6 +149,8 @@ gpresult /r
 gpresult /h report.html
 
 Get-GPO -All
+
+Get-GPResultantSetOfPolicy -ReportType Html -Path C:\GPReport.html
 ```
 
 ---
